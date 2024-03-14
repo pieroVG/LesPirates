@@ -38,21 +38,20 @@ public class Jeu {
         int res = resultatDes();
         affichage.afficherResultatDes(res); 
         pion.deplacer(res);
-        affichage.afficherPositionPion(pion); 
+        affichage.afficherPosition(pion); 
     }
 
     private void jouerTour() {
-        while (true) {
-            tourPion(pionJack);
-            if (pionJack.getPosition() >= 30) {
-                break;
-            }
-            
-            tourPion(pionBill);
-            if (pionBill.getPosition() >= 30) {          
-                break;
-            }
+        tourPion(pionJack);
+        if (pionJack.getPosition() >= 30) {
+            return;
         }
+        
+        tourPion(pionBill);
+        if (pionBill.getPosition() >= 30) {          
+            return;
+        }
+
     }
 
     public void commencerJeu() {

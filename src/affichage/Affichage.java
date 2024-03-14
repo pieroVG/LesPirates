@@ -3,7 +3,7 @@ package affichage;
 import joueurs.Pions;
 
 public class Affichage {
-    public void afficherPositionPion(Pions pion) {
+    public void afficherPosition(Pions pion) {
         System.out.println("Position de " + pion.getNom() + " : " + pion.getPosition());
     }
 

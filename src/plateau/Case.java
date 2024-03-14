@@ -16,4 +16,5 @@ public class Case {
 	public Type getType() {
 		return type;
 	}
+
 }
