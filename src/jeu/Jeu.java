@@ -1,41 +1,71 @@
 package jeu;
 
 import java.util.Random;
+import java.util.Scanner;
 
+import affichage.Affichage;
 import joueurs.Couleurs;
 import joueurs.Pions;
 import plateau.Plateau;
 
 public class Jeu {
-	private Plateau plateau;
+    private Plateau plateau;
     private Pions pionJack;
     private Pions pionBill;
-	
-	public Jeu() {
-		plateau = new Plateau();
-		pionJack = new Pions("Jack Le Borgne", Couleurs.ROUGE);
-		pionBill = new Pions("Bill Jambe De Bois", Couleurs.BLEU);
-	}
+    private Scanner scanner;
+    private Affichage affichage; 
     
+    public Jeu() {
+        plateau = new Plateau();
+        pionJack = new Pions("Jack Le Borgne", Couleurs.ROUGE);
+        pionBill = new Pions("Bill Jambe De Bois", Couleurs.BLEU);
+        scanner = new Scanner(System.in);
+        affichage = new Affichage();
+    }
     
-    
-    
-    
-    public static int lancerDe() {
+    private static int lancerDe() {
         Random random = new Random();
         return random.nextInt(6) + 1; 
     }
-    
-    private int resultatDes() {
+    public int resultatDes() {
     	return  lancerDe() + lancerDe();
     }
     
-    
-    
-    
-    
-    public static void main(String[] args) {
-        Jeu jeu = new Jeu();
+    private void tourPion(Pions pion) {
+        affichage.afficherMessage("Appuyez sur Entrée pour lancer les dés...");
+        scanner.nextLine();
+        
+        int res = resultatDes();
+        affichage.afficherResultatDes(res); 
+        pion.deplacer(res);
+        affichage.afficherPositionPion(pion); 
     }
 
+    private void jouerTour() {
+        while (true) {
+            tourPion(pionJack);
+            if (pionJack.getPosition() >= 30) {
+                break;
+            }
+            
+            tourPion(pionBill);
+            if (pionBill.getPosition() >= 30) {          
+                break;
+            }
+        }
+    }
+
+    public void commencerJeu() {
+        while (pionJack.getPosition() <= 30 && pionBill.getPosition() <= 30 && pionJack.getVie() != 0 && pionBill.getVie() != 0) {
+            jouerTour();
+        }
+        
+        if (pionJack.getPosition() >= 30 || pionBill.getVie() == 0) {
+            affichage.afficherMessage("Jack Le Borgne a gagné!"); 
+        } else if (pionBill.getPosition() >= 30 || pionJack.getVie() == 0) {
+            affichage.afficherMessage("Bill Jambe De Bois a gagné!");
+        }
+    }
 }
+
+    

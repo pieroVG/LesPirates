@@ -18,7 +18,7 @@ public class Pions extends Pirates{
 	}
 	
 	public void deplacer(int pos) {
-		position = pos;
+		position += pos;
 	}
 	
 }
