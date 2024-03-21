@@ -49,6 +49,7 @@ public class Jeu {
     }
 
     public void commencerJeu() {
+    	plateau.afficherPlateau();
         while (pionJack.getPosition() <= 30 && pionBill.getPosition() <= 30 && pionJack.getVie() != 0 && pionBill.getVie() != 0) {
             jouerTour();
         }

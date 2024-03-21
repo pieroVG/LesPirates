@@ -58,5 +58,17 @@ public class Plateau {
         throw new IllegalStateException("Aucun type de case n'a été choisi.");
     }
     
+    
+    public void afficherPlateau() {
+        System.out.println("Plateau:");
+        for (int i = 1; i < nbCases; i++) {
+            if (cases[i] != null) {
+                System.out.println("Case " + i + ": " + cases[i].getType());
+            } else {
+                System.out.println("Case " + i + ": Vide");
+            }
+        }
+    }
+    
 
 }
