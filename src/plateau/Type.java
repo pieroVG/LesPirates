@@ -1,19 +1,20 @@
 package plateau;
 
 public enum Type {
-    SAKE(10),
-    KRAKEN(3),
-    PERROQUET(3),
-    BOMBE(10),
-    NORMAL(60);
+    SAKE(6),
+    KRAKEN(1),
+    POTION(1),
+    PERROQUET(2),
+    DOUBLE_CANON(8),
+    NORMAL(12);
 	
-	private int pourcentage;
+	private int quantite;
 	
-	private Type(int pourcentage) {
-		this.pourcentage = pourcentage;
+	private Type(int quantite) {
+		this.quantite = quantite;
 	}
 	
-	public int getPourcentage() {
-		return pourcentage;
+	public int getQuantite() {
+		return quantite;
 	}
 }

@@ -12,36 +12,51 @@ public class Plateau {
     }
 
     private void initialiserPlateau() {
-        // Création cases normales du plateau
-        for (int i = 1; i < nbCases; i++) {
-            cases[i] = new Case(i, genererTypeCase());
-        }
-    
-    }
-    
-    public Type genererTypeCase() {
         Random random = new Random();
-        int totalPourcentage = 0;
-
-        // Calculer la somme totale des pourcentages
-        for (Type type : Type.values()) {
-            totalPourcentage += type.getPourcentage();
+        for (int i = 1; i < nbCases; i++) {
+            Type type = choisirType(random);
+            Case nouvelleCase;
+            switch (type) {
+                case SAKE:
+                    nouvelleCase = new Sake(i);
+                    break;
+                case KRAKEN:
+                    nouvelleCase = new Kraken(i);
+                    break;
+                case POTION:
+                    nouvelleCase = new Potion(i);
+                    break;
+                case PERROQUET:
+                    nouvelleCase = new Perroquet(i);
+                    break;
+                case DOUBLE_CANON:
+                    nouvelleCase = new DoubleCanon(i);
+                    break;
+                case NORMAL:
+                    nouvelleCase = new Normal(i);
+                    break;
+                default:
+                    throw new IllegalArgumentException("Type de case inconnu : " + type);
+            }
+            cases[i] = nouvelleCase;
         }
+    }
 
-        // Générer un nombre aléatoire entre 0 et la somme totale des pourcentages
-        int randomNumber = random.nextInt(totalPourcentage);
-
-        // Parcourir les types de cases et choisir celui qui correspond au nombre aléatoire généré
-        int cumulativePourcentage = 0;
+    private Type choisirType(Random random) {
+        int total = 0;
         for (Type type : Type.values()) {
-            cumulativePourcentage += type.getPourcentage();
-            if (randomNumber < cumulativePourcentage) {
+            total += type.getQuantite();
+        }
+        int choix = random.nextInt(total) + 1;
+        int sommePartielle = 0;
+        for (Type type : Type.values()) {
+            sommePartielle += type.getQuantite();
+            if (choix <= sommePartielle) {
                 return type;
             }
         }
-
-        // En cas d'erreur ou d'imprécision, retourner le type par défaut (NORMAL)
-        return Type.NORMAL;
+        throw new IllegalStateException("Aucun type de case n'a été choisi.");
     }
+    
 
 }

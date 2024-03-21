@@ -1,6 +1,8 @@
 package plateau;
 
-public class Case {
+import joueurs.Pions;
+
+public abstract class Case {
 	private int numero;
 	private Type type;
 	
@@ -16,5 +18,7 @@ public class Case {
 	public Type getType() {
 		return type;
 	}
+	
+	public abstract void effet(Pions pion); 
 
 }

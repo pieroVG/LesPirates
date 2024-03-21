@@ -9,6 +9,7 @@ import joueurs.Pions;
 import plateau.Plateau;
 
 public class Jeu {
+	private De de;
     private Plateau plateau;
     private Pions pionJack;
     private Pions pionBill;
@@ -16,6 +17,7 @@ public class Jeu {
     private Affichage affichage; 
     
     public Jeu() {
+    	de = new De();
         plateau = new Plateau();
         pionJack = new Pions("Jack Le Borgne", Couleurs.ROUGE);
         pionBill = new Pions("Bill Jambe De Bois", Couleurs.BLEU);
@@ -23,19 +25,11 @@ public class Jeu {
         affichage = new Affichage();
     }
     
-    private static int lancerDe() {
-        Random random = new Random();
-        return random.nextInt(6) + 1; 
-    }
-    public int resultatDes() {
-    	return  lancerDe() + lancerDe();
-    }
-    
     private void tourPion(Pions pion) {
         affichage.afficherMessage("Appuyez sur Entrée pour lancer les dés...");
         scanner.nextLine();
         
-        int res = resultatDes();
+        int res = de.resultatDes();
         affichage.afficherResultatDes(res); 
         pion.deplacer(res);
         affichage.afficherPosition(pion); 
