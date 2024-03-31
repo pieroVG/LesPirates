@@ -21,15 +21,15 @@ public class Pirates {
 	
 	public void perdreVie(int pv) {
 		vie -= pv;
+		System.out.println(nom + " perd " + pv + " pv");
 	}
 	
 	public void gagnerVie(int pv) {
 		vie += pv;
+		if (vie > 5) {
+	        vie = 5;
+	    }
 	}
-	
-	public boolean estEnVie() {
-        return vie > 0;
-    }
 	
 	public void ajouterObjet(Object objet) {
         inventaire.add(objet);

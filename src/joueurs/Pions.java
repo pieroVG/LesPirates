@@ -1,9 +1,12 @@
 package joueurs;
 
+import affichage.Affichage;
+
 public class Pions extends Pirates{
 	private Couleurs couleur;
-	private int position = 1;
+	private int position = 0;
 	private int modifierDe = 0;
+	private int tempsModifier = 0;
 	
 	public Pions(String nom, Couleurs couleur) {
 		super(nom);
@@ -19,7 +22,22 @@ public class Pions extends Pirates{
 	}
 	
 	public void deplacer(int pos) {
-		position += pos;
+	    int newPosition = position + pos + modifierDe;
+	    if (newPosition <= 29) {
+	        position = newPosition;
+	    } else {
+	        position = 29 - (newPosition - 29); // Reculer
+	    }
+	    
+	    if (tempsModifier > 0) {
+	    	tempsModifier--;
+	    	
+	    	if (tempsModifier == 0) {
+		    	modifierDe = 0;
+		    	System.out.println(this.getNom() + " n'est plus bourré");
+		    }
+	    }
+	    
 	}
 	
 	public int getModifierDe() {
@@ -28,6 +46,8 @@ public class Pions extends Pirates{
 
     public void setModifierDe(int modifier) {
         modifierDe = modifier;
+        tempsModifier = 2;
+        System.out.println(this.getNom() + " est bourré, il avancera moins vite");
     }
 	
 }

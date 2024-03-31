@@ -2,73 +2,74 @@ package plateau;
 
 import java.util.Random;
 
+
 public class Plateau {
     private Case[] cases;
-    private int nbCases = 31;
+    private int nbCases;
 
-    public Plateau() {
+    public Plateau(int nbCases) {
         cases = new Case[nbCases];
+        this.nbCases = nbCases;
         initialiserPlateau();
     }
 
     private void initialiserPlateau() {
+    	genererCases(Type.NORMAL);
+    	genererCases(Type.DOUBLE_CANON);
+    	genererCases(Type.SAKE);
+    	genererCases(Type.KRAKEN);
+        genererCases(Type.PERROQUET);
+        genererCases(Type.POTION);
+        
+    }
+
+    private void genererCases(Type type) {
         Random random = new Random();
-        for (int i = 1; i < nbCases; i++) {
-            Type type = choisirType(random);
-            Case nouvelleCase;
-            switch (type) {
-                case SAKE:
-                    nouvelleCase = new Sake(i);
-                    break;
-                case KRAKEN:
-                    nouvelleCase = new Kraken(i);
-                    break;
-                case POTION:
-                    nouvelleCase = new Potion(i);
-                    break;
-                case PERROQUET:
-                    nouvelleCase = new Perroquet(i);
-                    break;
-                case DOUBLE_CANON:
-                    nouvelleCase = new DoubleCanon(i);
-                    break;
-                case NORMAL:
-                    nouvelleCase = new Normal(i);
-                    break;
-                default:
-                    throw new IllegalArgumentException("Type de case inconnu : " + type);
-            }
-            cases[i] = nouvelleCase;
+        int position;
+        int quantite = type.getQuantite();
+
+        for (int i = 0; i < quantite; i++) {
+            do {
+                position = random.nextInt(nbCases); 
+            } while (getCases()[position] != null);
+            	getCases()[position] = creerCase(type, position);
         }
     }
 
-    private Type choisirType(Random random) {
-        int total = 0;
-        for (Type type : Type.values()) {
-            total += type.getQuantite();
+    private Case creerCase(Type type, int numero) {
+        switch (type) {
+        	case SAKE:
+        		return new Sake(numero);
+        	case KRAKEN:
+        		return new Kraken(numero);
+            case DOUBLE_CANON:
+                return new DoubleCanon(numero);
+            case PERROQUET:
+                return new Perroquet(numero);
+            case POTION:
+                return new Potion(numero);
+            case NORMAL:
+                return new Normal(numero);
+      
         }
-        int choix = random.nextInt(total) + 1;
-        int sommePartielle = 0;
-        for (Type type : Type.values()) {
-            sommePartielle += type.getQuantite();
-            if (choix <= sommePartielle) {
-                return type;
-            }
-        }
-        throw new IllegalStateException("Aucun type de case n'a été choisi.");
+		return null;
     }
     
     
     public void afficherPlateau() {
         System.out.println("Plateau:");
-        for (int i = 1; i < nbCases; i++) {
-            if (cases[i] != null) {
-                System.out.println("Case " + i + ": " + cases[i].getType());
+        for (int i = 0; i < nbCases; i++) {
+            if (getCases()[i] != null) {
+                System.out.println("Case " + i + ": " + getCases()[i].getType());
             } else {
                 System.out.println("Case " + i + ": Vide");
             }
         }
     }
+
+	public Case[] getCases() {
+		return cases;
+	}
     
 
 }
