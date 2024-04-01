@@ -12,7 +12,7 @@ public class Affichage {
     }
 
     public void afficherFinDeJeu(String gagnant) {
-        System.out.println("Le joueur " + gagnant + " a gagné!");
+        System.out.println("\nLe joueur " + gagnant + " a gagné!");
     }
 
 	public void afficherMessage(String message) {

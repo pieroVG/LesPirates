@@ -9,7 +9,7 @@ public class Sake extends Case {
     }
 
     @Override
-    public void effet(Pions pion) {
+    public void effet(Pions pion, Pions adversaire, Plateau plateau) {
         pion.gagnerVie(1);
         pion.setModifierDe(-2); 
     }

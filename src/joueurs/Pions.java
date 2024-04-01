@@ -1,6 +1,5 @@
 package joueurs;
 
-import affichage.Affichage;
 
 public class Pions extends Pirates{
 	private Couleurs couleur;

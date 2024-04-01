@@ -8,15 +8,11 @@ public class DoubleCanon extends Case {
         super(numero, Type.DOUBLE_CANON);
     }
 
-    public void Boom(Pions pion, Pions adversaire) {
-        
+	@Override
+	public void effet(Pions pion, Pions adversaire, Plateau plateau) {
         pion.deplacer(1);
         adversaire.deplacer(-2);
      
         adversaire.perdreVie(1);
-    }
-
-	@Override
-	public void effet(Pions pion) {
 	}
 }
