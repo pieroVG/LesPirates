@@ -27,19 +27,20 @@ public class Jeu {
     }
     
     private void tourPion(Pions pion, Pions adversaire) {
-        affichage.afficherMessage("Appuyez sur Entrée pour lancer les dés...");
+        Affichage.afficherMessage("Appuyez sur Entrée pour lancer les dés...");
         scanner.nextLine();
         
         int res = de.resultatDes();
         affichage.afficherResultatDes(res); 
         pion.deplacer(res);
-        affichage.afficherPosition(pion); 
         
         Case caseActuelle = plateau.getCases()[pion.getPosition()];
         if (caseActuelle != null) {
-            affichage.afficherMessage("Effet de la case : " + caseActuelle.getType());
+            Affichage.afficherMessage("Effet de la case : " + caseActuelle.getType());
             caseActuelle.effet(pion, adversaire, plateau);
         }
+        
+        affichage.afficherPosition(pion); 
     }
 
     private void jouerTour() {
@@ -56,37 +57,20 @@ public class Jeu {
     }
 
     public void commencerJeu() {
-    	plateau.afficherPlateau();
+    	Affichage.afficherPlateau(plateau.getCases());
         while (pionJack.getPosition() < nbCases-1 && pionBill.getPosition() < nbCases-1 && pionJack.getVie() > 0 && pionBill.getVie() > 0) {
             jouerTour();
-            afficherPlateauGraphique();
+            Affichage.afficherPlateauGraphique(plateau, pionJack, pionBill);
         }
         
         if (pionJack.getPosition() >= nbCases-1 || pionBill.getVie() <= 0) {
-            affichage.afficherMessage("Jack Le Borgne a gagné!"); 
+        	affichage.afficherFinDeJeu(pionJack);
         } else if (pionBill.getPosition() >= nbCases-1 || pionJack.getVie() <= 0) {
-            affichage.afficherMessage("Bill Jambe De Bois a gagné!");
+            affichage.afficherFinDeJeu(pionBill);
         }
     }
     
-    
-    public void afficherPlateauGraphique() {
-        System.out.println("Plateau:");
-        for (int i = nbCases-1; i > 0; i--) {
-            if (pionJack.getPosition() == i && pionBill.getPosition() == i) {
-                System.out.print("JB");
-            } else if (pionJack.getPosition() == i) {
-                System.out.print("J ");
-            } else if (pionBill.getPosition() == i) {
-                System.out.print("B ");
-            } else {
-                System.out.print(i + " ");
-            }
-            if (i % 5 == 0) {
-                System.out.println(); // Nouvelle ligne pour chaque ligne de 5 cases
-            }
-        }
-    }
+
     
 }
 

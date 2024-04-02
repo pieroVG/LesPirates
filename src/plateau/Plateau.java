@@ -15,7 +15,11 @@ public class Plateau {
 
     private void initialiserPlateau() {
     	genererCases(Type.NORMAL);
+    	genererCases(Type.SABRE);
+    	genererCases(Type.REVOLVER);
     	genererCases(Type.DOUBLE_CANON);
+    	genererCases(Type.STORM);
+    	genererCases(Type.BARQUE);
     	genererCases(Type.SAKE);
     	genererCases(Type.KRAKEN);
         genererCases(Type.PERROQUET);
@@ -48,27 +52,29 @@ public class Plateau {
                 return new Perroquet(numero);
             case POTION:
                 return new Potion(numero);
+            case SABRE:
+                return new Arme(numero, Type.SABRE);
+            case REVOLVER:
+                return new Arme(numero, Type.REVOLVER);
+            case STORM:
+                return new Deplacement(numero, Type.STORM);
+            case BARQUE:
+                return new Deplacement(numero, Type.BARQUE);
             case NORMAL:
                 return new Normal(numero);
+		default:
+			break;
       
         }
 		return null;
     }
-    
-    
-    public void afficherPlateau() {
-        System.out.println("Plateau:");
-        for (int i = 0; i < nbCases; i++) {
-            if (getCases()[i] != null) {
-                System.out.println("Case " + i + ": " + getCases()[i].getType());
-            } else {
-                System.out.println("Case " + i + ": Vide");
-            }
-        }
-    }
 
 	public Case[] getCases() {
 		return cases;
+	}
+
+	public int getNbCases() {
+		return nbCases;
 	}
     
 
