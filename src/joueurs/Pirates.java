@@ -21,7 +21,6 @@ public class Pirates {
 	
 	public void perdreVie(int pv) {
 		vie -= pv;
-		System.out.println(nom + " perd " + pv + " pv");
 	}
 	
 	public void gagnerVie(int pv) {

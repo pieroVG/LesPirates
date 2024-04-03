@@ -27,7 +27,7 @@ public class Jeu {
     }
     
     private void tourPion(Pions pion, Pions adversaire) {
-        Affichage.afficherMessage("Appuyez sur Entrée pour lancer les dés...");
+        affichage.lancerDe();
         scanner.nextLine();
         
         int res = de.resultatDes();
@@ -36,11 +36,12 @@ public class Jeu {
         
         Case caseActuelle = plateau.getCases()[pion.getPosition()];
         if (caseActuelle != null) {
-            Affichage.afficherMessage("Effet de la case : " + caseActuelle.getType());
-            caseActuelle.effet(pion, adversaire, plateau);
+            affichage.afficherTypeCase(caseActuelle);
+            affichage.afficherEffetCase(caseActuelle.effet(pion, adversaire, plateau));
         }
         
         affichage.afficherPosition(pion); 
+        affichage.afficherPV(pion);
     }
 
     private void jouerTour() {
@@ -57,10 +58,10 @@ public class Jeu {
     }
 
     public void commencerJeu() {
-    	Affichage.afficherPlateau(plateau.getCases());
+    	affichage.afficherPlateau(plateau.getCases());
         while (pionJack.getPosition() < nbCases-1 && pionBill.getPosition() < nbCases-1 && pionJack.getVie() > 0 && pionBill.getVie() > 0) {
             jouerTour();
-            Affichage.afficherPlateauGraphique(plateau, pionJack, pionBill);
+            affichage.afficherPlateauGraphique(plateau, pionJack, pionBill);
         }
         
         if (pionJack.getPosition() >= nbCases-1 || pionBill.getVie() <= 0) {

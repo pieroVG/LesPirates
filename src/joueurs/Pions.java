@@ -46,7 +46,6 @@ public class Pions extends Pirates{
     public void setModifierDe(int modifier) {
         modifierDe = modifier;
         tempsModifier = 2;
-        System.out.println(this.getNom() + " est bourré, il avancera moins vite");
     }
 	
 }

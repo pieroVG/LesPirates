@@ -8,7 +8,8 @@ public class Kraken extends Case {
     }
 
     @Override
-    public void effet(Pions pion, Pions adversaire, Plateau plateau) {
+    public String effet(Pions pion, Pions adversaire, Plateau plateau) {
         pion.perdreVie(4);
+        return "Le kraken apparait !!!";
     }
 }

@@ -1,6 +1,5 @@
 package plateau;
 
-import affichage.Affichage;
 import joueurs.Pions;
 
 public class Deplacement extends Case {
@@ -12,19 +11,21 @@ public class Deplacement extends Case {
     }
 
     @Override
-    public void effet(Pions pion, Pions adversaire, Plateau plateau) {
+    public String effet(Pions pion, Pions adversaire, Plateau plateau) {
+        String message = "";
         switch (typeDeplacement) {
             case STORM:
                 pion.deplacer(-pion.getPosition());
-                Affichage.afficherMessage("Tempête! Retour au début du plateau.");
+                message = "Tempête! Retour au début du plateau.";
                 break;
             case BARQUE:
                 pion.deplacer(5);
-                Affichage.afficherMessage("Vous avez trouvé une barque! Avancez de 5 cases.");
+                message = "Vous avez trouvé une barque! Avancez de 5 cases.";
                 break;
             default:
                 break;
         }
+        return message;
     }
 
     public Type getTypeDeplacement() {

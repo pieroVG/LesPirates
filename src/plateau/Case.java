@@ -3,8 +3,8 @@ package plateau;
 import joueurs.Pions;
 
 public abstract class Case {
-	private int numero;
-	private Type type;
+	protected int numero;
+	protected Type type;
 	
 	protected Case(int numero, Type type) {
 		this.numero = numero;
@@ -19,6 +19,6 @@ public abstract class Case {
 		return type;
 	}
 	
-	public abstract void effet(Pions pion, Pions adversaire, Plateau plateau); 
+	public abstract String effet(Pions pion, Pions adversaire, Plateau plateau); 
 
 }

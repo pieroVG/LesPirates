@@ -8,6 +8,7 @@ public class Normal extends Case {
     }
 
     @Override
-    public void effet(Pions pion, Pions adversaire, Plateau plateau) {     
+    public String effet(Pions pion, Pions adversaire, Plateau plateau) {     
+    	return "Case normale :)";
     }
 }

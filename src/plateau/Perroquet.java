@@ -8,7 +8,8 @@ public class Perroquet extends Case {
     }
 
     @Override
-    public void effet(Pions pion, Pions adversaire, Plateau plateau) {
+    public String effet(Pions pion, Pions adversaire, Plateau plateau) {
         // Implémenter l'effet du perroquet sur le pion
+    	return "Le perroquet change une case";
     }
 }

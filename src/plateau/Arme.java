@@ -11,8 +11,9 @@ public class Arme extends Case {
     }
 
     @Override
-    public void effet(Pions pion, Pions adversaire, Plateau plateau) {
-        pion.ajouterObjet(this);
+    public String effet(Pions pion, Pions adversaire, Plateau plateau) {
+        pion.ajouterObjet(this.typeArme);
+        return pion.getNom() + " récupère un " + typeArme.toString();
     }
 
     public Type getTypeArme() {
