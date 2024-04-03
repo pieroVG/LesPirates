@@ -38,6 +38,7 @@ public class Jeu {
         if (caseActuelle != null) {
             affichage.afficherTypeCase(caseActuelle);
             affichage.afficherEffetCase(caseActuelle.effet(pion, adversaire, plateau));
+            affichage.afficherImmunite(pion);
         }
         
         affichage.afficherPosition(pion); 
@@ -58,8 +59,17 @@ public class Jeu {
         if (pionBill.getPosition() >= nbCases-1) {          
             return;
         }
+        
+        if (pionJack.getVie() <= 0) {
+            affichage.afficherMessage(pionJack.getNom() + " est mort !");
+        }
+        if (pionBill.getVie() <= 0) {
+            affichage.afficherMessage(pionBill.getNom() + " est mort !");
+        }
     }
 
+    
+    
     public void commencerJeu() {
     	affichage.afficherPlateau(plateau.getCases());
         while (pionJack.getPosition() < nbCases-1 && pionBill.getPosition() < nbCases-1 && pionJack.getVie() > 0 && pionBill.getVie() > 0) {

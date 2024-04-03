@@ -2,10 +2,13 @@ package joueurs;
 import java.util.ArrayList;
 import java.util.List;
 
+import affichage.Affichage;
+
 public class Pirates {
 	private String nom;
 	private int vie = 5;
-	 private List<Object> inventaire = new ArrayList<>();
+	private List<Object> inventaire = new ArrayList<>();
+	private boolean immunite = false;
 	
 	public Pirates(String nom) {
 		this.nom = nom;
@@ -20,7 +23,12 @@ public class Pirates {
 	}
 	
 	public void perdreVie(int pv) {
-		vie -= pv;
+		if (!immunite) {
+			vie -= pv;
+		}
+		else {
+			immunite = false;
+		}
 	}
 	
 	public void gagnerVie(int pv) {
@@ -32,5 +40,13 @@ public class Pirates {
 	
 	public void ajouterObjet(Object objet) {
         inventaire.add(objet);
+    }
+	
+    public boolean aImmunite() {
+        return immunite;
+    }
+
+    public void activerImmunite() {
+        immunite = true;
     }
 }

@@ -9,7 +9,15 @@ public class Perroquet extends Case {
 
     @Override
     public String effet(Pions pion, Pions adversaire, Plateau plateau) {
-        // Implémenter l'effet du perroquet sur le pion
-    	return "Le perroquet change une case";
+        Case[] cases = plateau.getCases();
+
+        for (int i = pion.getPosition() + 1; i < cases.length; i++) {
+            if (cases[i] != null && cases[i].getType() == Type.NORMAL) {
+                cases[i] = new Potion(i);
+                return "La case " + (i + 1) + " a été transformée en Potion par le Perroquet.";
+            }
+        }
+
+        return "Aucune case normale disponible pour être transformée en Potion par le Perroquet.";
     }
 }

@@ -10,6 +10,11 @@ public class Affichage implements Iaffichage {
         System.out.println("Résultat des dés : " + resultat);
     }
 
+    
+    //diagramme systeme : 1 tour de jeu sans les cases speciales comme au debut
+    //diagramme detaillee : demarer sur cases speciales
+    
+    
     @Override
     public void afficherTypeCase(Case caseActuelle) {
         if (caseActuelle != null) {
@@ -38,11 +43,9 @@ public class Affichage implements Iaffichage {
     
     @Override
     public void afficherPV(Pions pion) {
-    	System.out.println(pion.getNom() + " : " + pion.getVie());
+    	System.out.println("PV de " + pion.getNom() + " : " + pion.getVie());
     }
-    
-    //diagramme systeme : 1 tour de jeu sans les cases speciales comme au debut
-    //diagramme detaillee : demarer sur cases speciales
+
 
     public void afficherPlateauGraphique(Plateau plateau, Pions pionJack, Pions pionBill) {
         int nbCases = plateau.getNbCases();
@@ -66,7 +69,7 @@ public class Affichage implements Iaffichage {
     }
 
     public void afficherFinDeJeu(Pions gagnant) {
-        System.out.println("\nLe joueur " + gagnant.getNom() + " a gagné!");
+        System.out.println("Le joueur " + gagnant.getNom() + " a gagné!");
     }
 
 
@@ -85,4 +88,15 @@ public class Affichage implements Iaffichage {
 		System.out.println("Appuyez sur Entrée pour lancer les dés...");
 		
 	}
+
+	public void afficherMessage(String string) {
+		System.out.println(string);
+		
+	}
+	
+    public void afficherImmunite(Pions pion) {
+        if (pion.aImmunite()) {
+            System.out.println(pion.getNom() + " est immunisé contre les prochains dégâts !");
+        }
+    }
 }
