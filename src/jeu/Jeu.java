@@ -45,6 +45,10 @@ public class Jeu {
     }
 
     private void jouerTour() {
+        if (pionJack.getVie() <= 0 || pionBill.getVie() <= 0) {
+            return; 
+        }
+
         tourPion(pionJack, pionBill);
         if (pionJack.getPosition() >= nbCases-1) {
             return;
@@ -54,7 +58,6 @@ public class Jeu {
         if (pionBill.getPosition() >= nbCases-1) {          
             return;
         }
-
     }
 
     public void commencerJeu() {
