@@ -8,12 +8,7 @@ public class Affichage implements Iaffichage {
     @Override
     public void afficherResultatDes(int resultat) {
         System.out.println("Résultat des dés : " + resultat);
-    }
-
-    
-    //diagramme systeme : 1 tour de jeu sans les cases speciales comme au debut
-    //diagramme detaillee : demarer sur cases speciales
-    
+    }    
     
     @Override
     public void afficherTypeCase(Case caseActuelle) {

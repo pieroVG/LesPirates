@@ -10,8 +10,8 @@ public enum Type {
     DOUBLE_CANON(5),
     STORM(1),
     BARQUE(2),
-    NORMAL(12);
-	
+    NORMAL(12),
+	CASES(30);
 	
 	
 	private int quantite;

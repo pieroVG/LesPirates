@@ -2,7 +2,7 @@ package joueurs;
 import java.util.ArrayList;
 import java.util.List;
 
-import affichage.Affichage;
+import plateau.Type;
 
 public class Pirates {
 	private String nom;
@@ -38,9 +38,14 @@ public class Pirates {
 	    }
 	}
 	
-	public void ajouterObjet(Object objet) {
-        inventaire.add(objet);
-    }
+	public String ajouterObjet(Type objet) {
+	    if (inventaire.contains(objet)) {
+	        return objet.toString() + " est déjà présent dans l'inventaire.";
+	    } else {
+	        inventaire.add(objet);
+	        return nom + " récupère un " + objet.toString();
+	    }
+	}
 	
     public boolean aImmunite() {
         return immunite;

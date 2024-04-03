@@ -9,8 +9,7 @@ public class Potion extends Case {
 
     @Override
     public String effet(Pions pion, Pions adversaire, Plateau plateau) {
-        pion.ajouterObjet(this.type);
         pion.activerImmunite();
-        return pion.getNom() + " récupère une " + type.toString();
+        return pion.ajouterObjet(this.type);
     }
 }

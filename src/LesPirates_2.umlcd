@@ -1,0 +1,1708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_33UuIPHZEe6RAbX4VU2fXA">
+  <modelElement href="LesPirates.uml#_32zwwPHZEe6RAbX4VU2fXA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4bJz8PHZEe6RAbX4VU2fXA" sourceAnchor="244.0,0.0" targetAnchor="187.0,166.0" dashed="true" superClass="_4bLpIPHZEe6RAbX4VU2fXA" subClass="_4aRqMPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3_iO8PHZEe6RAbX4VU2fXA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4bfLIPHZEe6RAbX4VU2fXA" sourceAnchor="0.0,107.0" targetAnchor="154.0,31.0" target="_4bcH0PHZEe6RAbX4VU2fXA" source="_4bnuCfHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_4ALIIPHZEe6RAbX4VU2fXA"/>
+    <stereotypes xmi:id="_4biOcvHZEe6RAbX4VU2fXA" name="Reference">
+      <modelElement href="LesPirates.uml#_4ALvMPHZEe6RAbX4VU2fXA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_4bhnYPHZEe6RAbX4VU2fXA" text="">
+      <visualProperties xmi:id="_4jWGoPHZEe6RAbX4VU2fXA" position="-18.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_4biOcPHZEe6RAbX4VU2fXA" aggregationKind="NONE" name="">
+      <modelElement href="LesPirates.uml#_4ALIIfHZEe6RAbX4VU2fXA"/>
+      <visualProperties xmi:id="_4jVflvHZEe6RAbX4VU2fXA" position="-30.0,2.0"/>
+      <visibility xmi:id="_4bkqsfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bkqsPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4biOcfHZEe6RAbX4VU2fXA" aggregationKind="NONE" name="de" navigable="true">
+      <modelElement href="LesPirates.uml#_3_5bUPHZEe6RAbX4VU2fXA"/>
+      <visualProperties xmi:id="_4jWGofHZEe6RAbX4VU2fXA" position="24.0,-47.0"/>
+      <visibility xmi:id="_4bkqs_HZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bkqsvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4bfyMPHZEe6RAbX4VU2fXA" sourceAnchor="285.0,119.0" targetAnchor="0.0,129.0" target="_4aRqMPHZEe6RAbX4VU2fXA" source="_4bnuCfHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_4AM9UfHZEe6RAbX4VU2fXA"/>
+    <stereotypes xmi:id="_4bi1hvHZEe6RAbX4VU2fXA" name="Reference">
+      <modelElement href="LesPirates.uml#_4AM9U_HZEe6RAbX4VU2fXA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_4bi1g_HZEe6RAbX4VU2fXA" text="">
+      <visualProperties xmi:id="_4jWtsfHZEe6RAbX4VU2fXA" position="-34.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_4bi1hPHZEe6RAbX4VU2fXA" aggregationKind="NONE" name="">
+      <modelElement href="LesPirates.uml#_4AM9UvHZEe6RAbX4VU2fXA"/>
+      <visualProperties xmi:id="_4jWtsPHZEe6RAbX4VU2fXA" position="14.0,-47.0"/>
+      <visibility xmi:id="_4blRxvHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4blRxfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4bi1hfHZEe6RAbX4VU2fXA" aggregationKind="NONE" name="affichage" navigable="true">
+      <modelElement href="LesPirates.uml#_3_6CZfHZEe6RAbX4VU2fXA"/>
+      <visualProperties xmi:id="_4jWtsvHZEe6RAbX4VU2fXA" position="-104.0,2.0"/>
+      <visibility xmi:id="_4blRyPHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4blRx_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4bi1gPHZEe6RAbX4VU2fXA" sourceAnchor="249.0,195.0" targetAnchor="145.0,0.0" target="_4cJ5gPHZEe6RAbX4VU2fXA" source="_4bnuCfHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_4ALvMfHZEe6RAbX4VU2fXA"/>
+    <stereotypes xmi:id="_4bkquPHZEe6RAbX4VU2fXA" name="Reference">
+      <modelElement href="LesPirates.uml#_4ALvM_HZEe6RAbX4VU2fXA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_4bkqtfHZEe6RAbX4VU2fXA" text="">
+      <visualProperties xmi:id="_4jX70PHZEe6RAbX4VU2fXA" position="1.0,17.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_4bkqtvHZEe6RAbX4VU2fXA" aggregationKind="NONE" name="">
+      <modelElement href="LesPirates.uml#_4ALvMvHZEe6RAbX4VU2fXA"/>
+      <visualProperties xmi:id="_4jXUwPHZEe6RAbX4VU2fXA" position="1.0,18.0"/>
+      <visibility xmi:id="_4bl40fHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bl40PHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4bkqt_HZEe6RAbX4VU2fXA" aggregationKind="NONE" name="plateau" navigable="true">
+      <modelElement href="LesPirates.uml#_3_5bUvHZEe6RAbX4VU2fXA"/>
+      <visualProperties xmi:id="_4jX70fHZEe6RAbX4VU2fXA" position="-57.0,-63.0"/>
+      <visibility xmi:id="_4bl40_HZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bl40vHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4bi1gfHZEe6RAbX4VU2fXA" sourceAnchor="141.0,0.0" targetAnchor="154.0,175.0" target="_4b7QAPHZEe6RAbX4VU2fXA" source="_4bnuCfHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_4ALvNPHZEe6RAbX4VU2fXA"/>
+    <stereotypes xmi:id="_4blRwPHZEe6RAbX4VU2fXA" name="Reference">
+      <modelElement href="LesPirates.uml#_4AMWQPHZEe6RAbX4VU2fXA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_4bkqufHZEe6RAbX4VU2fXA" text="">
+      <visualProperties xmi:id="_4jYi4PHZEe6RAbX4VU2fXA" position="-40.0,16.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_4bkquvHZEe6RAbX4VU2fXA" aggregationKind="NONE" name="">
+      <modelElement href="LesPirates.uml#_4ALvNfHZEe6RAbX4VU2fXA"/>
+      <visualProperties xmi:id="_4jX70vHZEe6RAbX4VU2fXA" position="1.0,-62.0"/>
+      <visibility xmi:id="_4bmf4vHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bmf4fHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4bkqu_HZEe6RAbX4VU2fXA" aggregationKind="NONE" name="pionJack" navigable="true">
+      <modelElement href="LesPirates.uml#_3_5bVPHZEe6RAbX4VU2fXA"/>
+      <visualProperties xmi:id="_4jYi4fHZEe6RAbX4VU2fXA" position="-64.0,16.0"/>
+      <visibility xmi:id="_4bmf5PHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bmf4_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4bi1gvHZEe6RAbX4VU2fXA" sourceAnchor="169.0,0.0" targetAnchor="182.0,175.0" target="_4b7QAPHZEe6RAbX4VU2fXA" source="_4bnuCfHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_4AMWQfHZEe6RAbX4VU2fXA"/>
+    <stereotypes xmi:id="_4blRxPHZEe6RAbX4VU2fXA" name="Reference">
+      <modelElement href="LesPirates.uml#_4AMWQ_HZEe6RAbX4VU2fXA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_4blRwfHZEe6RAbX4VU2fXA" text="">
+      <visualProperties xmi:id="_4jZxAPHZEe6RAbX4VU2fXA" position="-5.0,0.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_4blRwvHZEe6RAbX4VU2fXA" aggregationKind="NONE" name="">
+      <modelElement href="LesPirates.uml#_4AMWQvHZEe6RAbX4VU2fXA"/>
+      <visualProperties xmi:id="_4jZJ8PHZEe6RAbX4VU2fXA" position="1.0,-77.0"/>
+      <visibility xmi:id="_4bmf5_HZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bmf5vHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4blRw_HZEe6RAbX4VU2fXA" aggregationKind="NONE" name="pionBill" navigable="true">
+      <modelElement href="LesPirates.uml#_3_6CYfHZEe6RAbX4VU2fXA"/>
+      <visualProperties xmi:id="_4jZxAfHZEe6RAbX4VU2fXA" position="40.0,1.0"/>
+      <visibility xmi:id="_4bmf6fHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bmf6PHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4bnuAPHZEe6RAbX4VU2fXA" source="_4bnuCfHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_4AMWRPHZEe6RAbX4VU2fXA"/>
+    <stereotypes xmi:id="_4bnuAfHZEe6RAbX4VU2fXA" name="Reference">
+      <modelElement href="LesPirates.uml#_4AM9UPHZEe6RAbX4VU2fXA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_4bnuAvHZEe6RAbX4VU2fXA" text=""/>
+    <sourceRole xmi:id="_4bnuA_HZEe6RAbX4VU2fXA" aggregationKind="NONE" name="">
+      <modelElement href="LesPirates.uml#_4AMWRfHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bnuBPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bnuBfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4bnuBvHZEe6RAbX4VU2fXA" aggregationKind="NONE" name="scanner" navigable="true">
+      <modelElement href="LesPirates.uml#_3_6CY_HZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bnuB_HZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bnuCPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4bz7QPHZEe6RAbX4VU2fXA" sourceAnchor="0.0,111.0" targetAnchor="285.0,110.0" superClass="_4b2XifHZEe6RAbX4VU2fXA" subClass="_4b7QAPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3_pjsvHZEe6RAbX4VU2fXA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4b2XgPHZEe6RAbX4VU2fXA" source="_4b2XifHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_4AM9VPHZEe6RAbX4VU2fXA"/>
+    <stereotypes xmi:id="_4b2XgfHZEe6RAbX4VU2fXA" name="Reference">
+      <modelElement href="LesPirates.uml#_4AM9VvHZEe6RAbX4VU2fXA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_4b2XgvHZEe6RAbX4VU2fXA" text=""/>
+    <sourceRole xmi:id="_4b2Xg_HZEe6RAbX4VU2fXA" aggregationKind="NONE" name="">
+      <modelElement href="LesPirates.uml#_4AM9VfHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b2XhPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b2XhfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4b2XhvHZEe6RAbX4VU2fXA" aggregationKind="NONE" name="inventaire" navigable="true">
+      <modelElement href="LesPirates.uml#_3_73k_HZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b2Xh_HZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4b2XiPHZEe6RAbX4VU2fXA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4cFBAPHZEe6RAbX4VU2fXA" sourceAnchor="213.0,0.0" targetAnchor="199.0,156.0" superClass="_4cVfsPHZEe6RAbX4VU2fXA" subClass="_4cG2N_HZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3_ucNPHZEe6RAbX4VU2fXA"/>
+    <bendpoints xmi:id="_v_c9i_HaEe6RAbX4VU2fXA" sourceY="-30" targetX="-868" targetY="160"/>
+    <bendpoints xmi:id="_v_c9jPHaEe6RAbX4VU2fXA" sourceX="868" sourceY="-30" targetY="160"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4cFoEPHZEe6RAbX4VU2fXA" sourceAnchor="291.0,79.0" targetAnchor="0.0,77.0" target="_4cVfsPHZEe6RAbX4VU2fXA" source="_4cJ5gPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_4AM9V_HZEe6RAbX4VU2fXA"/>
+    <stereotypes xmi:id="_4cG2MfHZEe6RAbX4VU2fXA" name="Reference">
+      <modelElement href="LesPirates.uml#_4ANkYPHZEe6RAbX4VU2fXA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_4cGPIPHZEe6RAbX4VU2fXA" text="">
+      <visualProperties xmi:id="_4jaYEfHZEe6RAbX4VU2fXA" position="-19.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_4cGPIfHZEe6RAbX4VU2fXA" aggregationKind="NONE" name="">
+      <modelElement href="LesPirates.uml#_4AM9WPHZEe6RAbX4VU2fXA"/>
+      <visualProperties xmi:id="_4jaYEPHZEe6RAbX4VU2fXA" position="14.0,-47.0"/>
+      <visibility xmi:id="_4cG2M_HZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cG2MvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4cG2MPHZEe6RAbX4VU2fXA" aggregationKind="NONE" name="cases" navigable="true">
+      <modelElement href="LesPirates.uml#_3_9swPHZEe6RAbX4VU2fXA"/>
+      <visualProperties xmi:id="_4jaYEvHZEe6RAbX4VU2fXA" position="-78.0,2.0"/>
+      <stereotypes xmi:id="_4cG2NvHZEe6RAbX4VU2fXA" name="Array">
+        <modelElement href="LesPirates.uml#_3_9swvHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4cG2NfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cG2NPHZEe6RAbX4VU2fXA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4cMVwPHZEe6RAbX4VU2fXA" sourceAnchor="210.0,0.0" targetAnchor="199.0,156.0" superClass="_4cVfsPHZEe6RAbX4VU2fXA" subClass="_4cM80PHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3_vqUPHZEe6RAbX4VU2fXA"/>
+    <bendpoints xmi:id="_v_c9jfHaEe6RAbX4VU2fXA" sourceY="-45" targetX="-390" targetY="160"/>
+    <bendpoints xmi:id="_v_c9jvHaEe6RAbX4VU2fXA" sourceX="390" sourceY="-45" targetY="160"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4cOyAPHZEe6RAbX4VU2fXA" sourceAnchor="0.0,36.0" targetAnchor="199.0,156.0" superClass="_4cVfsPHZEe6RAbX4VU2fXA" subClass="_4cPZEPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3_w4c_HZEe6RAbX4VU2fXA"/>
+    <bendpoints xmi:id="_v_c9hvHaEe6RAbX4VU2fXA" sourceX="-106" targetX="-1199" targetY="368"/>
+    <bendpoints xmi:id="_v_c9h_HaEe6RAbX4VU2fXA" sourceX="-106" sourceY="-208" targetX="-1199" targetY="160"/>
+    <bendpoints xmi:id="_v_c9iPHaEe6RAbX4VU2fXA" sourceX="1093" sourceY="-208" targetY="160"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4cQnMPHZEe6RAbX4VU2fXA" sourceAnchor="421.0,36.0" targetAnchor="199.0,156.0" superClass="_4cVfsPHZEe6RAbX4VU2fXA" subClass="_4cROQPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3_xfhPHZEe6RAbX4VU2fXA"/>
+    <bendpoints xmi:id="_v_c9kvHaEe6RAbX4VU2fXA" sourceX="47" targetX="402" targetY="501"/>
+    <bendpoints xmi:id="_v_c9k_HaEe6RAbX4VU2fXA" sourceX="47" sourceY="-341" targetX="402" targetY="160"/>
+    <bendpoints xmi:id="_v_c9lPHaEe6RAbX4VU2fXA" sourceX="-355" sourceY="-341" targetY="160"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4cScYPHZEe6RAbX4VU2fXA" sourceAnchor="421.0,36.0" targetAnchor="199.0,156.0" superClass="_4cVfsPHZEe6RAbX4VU2fXA" subClass="_4cTDcPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3_z7wvHZEe6RAbX4VU2fXA"/>
+    <bendpoints xmi:id="_v_c9gPHaEe6RAbX4VU2fXA" sourceX="45" targetX="-125" targetY="504"/>
+    <bendpoints xmi:id="_v_c9gfHaEe6RAbX4VU2fXA" sourceX="45" sourceY="-344" targetX="-125" targetY="160"/>
+    <bendpoints xmi:id="_v_c9gvHaEe6RAbX4VU2fXA" sourceX="170" sourceY="-344" targetY="160"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4cZxIPHZEe6RAbX4VU2fXA" sourceAnchor="210.0,0.0" targetAnchor="199.0,156.0" superClass="_4cVfsPHZEe6RAbX4VU2fXA" subClass="_4caYMPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3_zUsPHZEe6RAbX4VU2fXA"/>
+    <bendpoints xmi:id="_v_c9ifHaEe6RAbX4VU2fXA" sourceY="-32" targetX="146" targetY="160"/>
+    <bendpoints xmi:id="_v_c9ivHaEe6RAbX4VU2fXA" sourceX="-146" sourceY="-32" targetY="160"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4cge0PHZEe6RAbX4VU2fXA" sourceAnchor="421.0,49.0" targetAnchor="199.0,156.0" superClass="_4cVfsPHZEe6RAbX4VU2fXA" subClass="_4chF4PHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3_snAPHZEe6RAbX4VU2fXA"/>
+    <bendpoints xmi:id="_v_c9j_HaEe6RAbX4VU2fXA" sourceX="17" targetX="372" targetY="365"/>
+    <bendpoints xmi:id="_v_c9kPHaEe6RAbX4VU2fXA" sourceX="17" sourceY="-205" targetX="372" targetY="160"/>
+    <bendpoints xmi:id="_v_c9kfHaEe6RAbX4VU2fXA" sourceX="-355" sourceY="-205" targetY="160"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4ci7EPHZEe6RAbX4VU2fXA" sourceAnchor="0.0,36.0" targetAnchor="199.0,156.0" superClass="_4cVfsPHZEe6RAbX4VU2fXA" subClass="_4ckJMPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3_wRYvHZEe6RAbX4VU2fXA"/>
+    <bendpoints xmi:id="_v_c9g_HaEe6RAbX4VU2fXA" sourceX="-22" targetX="-615" targetY="362"/>
+    <bendpoints xmi:id="_v_c9hPHaEe6RAbX4VU2fXA" sourceX="-22" sourceY="-202" targetX="-615" targetY="160"/>
+    <bendpoints xmi:id="_v_c9hfHaEe6RAbX4VU2fXA" sourceX="593" sourceY="-202" targetY="160"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4bnuCfHZEe6RAbX4VU2fXA" name="Jeu" associationsOut="_4bfLIPHZEe6RAbX4VU2fXA _4bfyMPHZEe6RAbX4VU2fXA _4bi1gPHZEe6RAbX4VU2fXA _4bi1gfHZEe6RAbX4VU2fXA _4bi1gvHZEe6RAbX4VU2fXA _4bnuAPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3-uWpPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4bnuCvHZEe6RAbX4VU2fXA" position="-321.0,161.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4bnuC_HZEe6RAbX4VU2fXA" label="+"/>
+    <attributes xmi:id="_4bnuDPHZEe6RAbX4VU2fXA" name="de">
+      <modelElement href="LesPirates.uml#_3_5bUPHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4bnuDfHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_5bUfHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4bnuDvHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bnuD_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4bnuEPHZEe6RAbX4VU2fXA" name="De">
+        <modelElement href="LesPirates.uml#_3-tvkPHZEe6RAbX4VU2fXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4bnuEfHZEe6RAbX4VU2fXA" name="plateau">
+      <modelElement href="LesPirates.uml#_3_5bUvHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4bnuEvHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_5bU_HZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4bnuE_HZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bnuFPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4bnuFfHZEe6RAbX4VU2fXA" name="Plateau">
+        <modelElement href="LesPirates.uml#_3--OQPHZEe6RAbX4VU2fXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4bnuFvHZEe6RAbX4VU2fXA" name="pionJack">
+      <modelElement href="LesPirates.uml#_3_5bVPHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4bnuF_HZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_6CYPHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4bnuGPHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bnuGfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4bnuGvHZEe6RAbX4VU2fXA" name="Pions">
+        <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4bnuG_HZEe6RAbX4VU2fXA" name="pionBill">
+      <modelElement href="LesPirates.uml#_3_6CYfHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4bnuHPHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_6CYvHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4bnuHfHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bnuHvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4bnuH_HZEe6RAbX4VU2fXA" name="Pions">
+        <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4bnuIPHZEe6RAbX4VU2fXA" name="scanner">
+      <modelElement href="LesPirates.uml#_3_6CY_HZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4bnuIfHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_6CZPHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4bnuIvHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bnuI_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4bnuJPHZEe6RAbX4VU2fXA" name="Scanner">
+        <modelElement href="LesPirates.uml#_3_nHcPHZEe6RAbX4VU2fXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4bnuJfHZEe6RAbX4VU2fXA" name="affichage">
+      <modelElement href="LesPirates.uml#_3_6CZfHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4bnuJvHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_6pcPHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4bnuJ_HZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bnuKPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4bnuKfHZEe6RAbX4VU2fXA" name="Affichage">
+        <modelElement href="LesPirates.uml#_3-oQAPHZEe6RAbX4VU2fXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4bnuKvHZEe6RAbX4VU2fXA" defaultValue="30" name="nbCases">
+      <modelElement href="LesPirates.uml#_3_6pcfHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4bnuK_HZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_6pc_HZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4bnuLPHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bnuLfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4bnuLvHZEe6RAbX4VU2fXA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_4bnuL_HZEe6RAbX4VU2fXA" name="Jeu">
+      <modelElement href="LesPirates.uml#_3-vkwPHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4bnuMPHZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4bnuMfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bnuMvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4bnuM_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3-vkw_HZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4bnuNPHZEe6RAbX4VU2fXA" name="Jeu">
+          <modelElement href="LesPirates.uml#_3-uWpPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4bnuNfHZEe6RAbX4VU2fXA" name="jouerTour">
+      <modelElement href="LesPirates.uml#_3-wL0PHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bnuNvHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bnuN_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_4bnuOPHZEe6RAbX4VU2fXA" name="commencerJeu">
+      <modelElement href="LesPirates.uml#_3-wL0fHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bnuOfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bnuOvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_4bnuO_HZEe6RAbX4VU2fXA" name="tourPion">
+      <modelElement href="LesPirates.uml#_3_nugPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bnuPPHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bnuPfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4bnuPvHZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_nugfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4bnuP_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4bnuQPHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4bnuQfHZEe6RAbX4VU2fXA" name="adversaire">
+        <modelElement href="LesPirates.uml#_3_nugvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4bnuQvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4bnuQ_HZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4bnuRPHZEe6RAbX4VU2fXA" name="estMort">
+      <modelElement href="LesPirates.uml#_3_nug_HZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bnuRfHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bnuRvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4bnuR_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_nuhfHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4bnuSPHZEe6RAbX4VU2fXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4bnuSfHZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_nuhPHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4bnuSvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4bnuS_HZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4bnuTPHZEe6RAbX4VU2fXA" name="estTermine">
+      <modelElement href="LesPirates.uml#_3_oVkPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bnuTfHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bnuTvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4bnuT_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_oVkvHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4bnuUPHZEe6RAbX4VU2fXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4bnuUfHZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_oVkfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4bnuUvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4bnuU_HZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4b7QAPHZEe6RAbX4VU2fXA" name="Pions" associationsIn="_4bi1gfHZEe6RAbX4VU2fXA _4bi1gvHZEe6RAbX4VU2fXA" generalizations="_4bz7QPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4b7QAfHZEe6RAbX4VU2fXA" position="-334.0,-107.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4b7QAvHZEe6RAbX4VU2fXA" label="+"/>
+    <attributes xmi:id="_4b7QA_HZEe6RAbX4VU2fXA" name="couleur">
+      <modelElement href="LesPirates.uml#_3_6pdPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b7QBPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b7QBfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4b7QBvHZEe6RAbX4VU2fXA" name="Couleurs">
+        <modelElement href="LesPirates.uml#_3-yBAPHZEe6RAbX4VU2fXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4b7QB_HZEe6RAbX4VU2fXA" defaultValue="0" name="position">
+      <modelElement href="LesPirates.uml#_3_7QgPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b7QCPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b7QCfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4b7QCvHZEe6RAbX4VU2fXA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4b7QC_HZEe6RAbX4VU2fXA" defaultValue="0" name="modifierDe">
+      <modelElement href="LesPirates.uml#_3_7QgvHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b7QDPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b7QDfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4b7QDvHZEe6RAbX4VU2fXA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4b7QD_HZEe6RAbX4VU2fXA" defaultValue="0" name="tempsModifier">
+      <modelElement href="LesPirates.uml#_3_7QhPHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4b7QEPHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_7QhvHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4b7QEfHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4b7QEvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4b7QE_HZEe6RAbX4VU2fXA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_4b7QFPHZEe6RAbX4VU2fXA" name="deplacer">
+      <modelElement href="LesPirates.uml#_3-yoEPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b7QFfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b7QFvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4b7QF_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3-yoEvHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4b7QGPHZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4b7QGfHZEe6RAbX4VU2fXA" name="pos">
+        <modelElement href="LesPirates.uml#_3-yoEfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4b7QGvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4b7QG_HZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4b7QHPHZEe6RAbX4VU2fXA" name="setModifierDe">
+      <modelElement href="LesPirates.uml#_3-zPIPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b7QHfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b7QHvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4b7QH_HZEe6RAbX4VU2fXA" name="modifier">
+        <modelElement href="LesPirates.uml#_3-zPIfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4b7QIPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4b7QIfHZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4b7QIvHZEe6RAbX4VU2fXA" name="Pions">
+      <modelElement href="LesPirates.uml#_3_o8oPHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4b7QI_HZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4b7QJPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b7QJfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4b7QJvHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_pjsfHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4b7QJ_HZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4b7QKPHZEe6RAbX4VU2fXA" name="nom">
+        <modelElement href="LesPirates.uml#_3_o8ofHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4b7QKfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4b7QKvHZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4b7QK_HZEe6RAbX4VU2fXA" name="couleur">
+        <modelElement href="LesPirates.uml#_3_o8ovHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4b7QLPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4b7QLfHZEe6RAbX4VU2fXA" name="Couleurs">
+          <modelElement href="LesPirates.uml#_3-yBAPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4bcH0PHZEe6RAbX4VU2fXA" name="De" associationsIn="_4bfLIPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3-tvkPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4bcH0fHZEe6RAbX4VU2fXA" position="-668.0,237.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4bcH0vHZEe6RAbX4VU2fXA" label="+"/>
+    <operations xmi:id="_4bcH0_HZEe6RAbX4VU2fXA" name="lancerDe">
+      <modelElement href="LesPirates.uml#_3-uWoPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bcH1PHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4bcH1fHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4bcH1vHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3-uWofHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4bcH1_HZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4bcH2PHZEe6RAbX4VU2fXA" name="resultatDes">
+      <modelElement href="LesPirates.uml#_3-uWovHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bcH2fHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bcH2vHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4bcH2_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3-uWo_HZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4bcH3PHZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_4cAvkPHZEe6RAbX4VU2fXA" name="Couleurs">
+    <modelElement href="LesPirates.uml#_3-yBAPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4cAvkfHZEe6RAbX4VU2fXA" position="-454.0,409.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_4cAvkvHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+      <modelElement href="LesPirates.uml#_3-yBAfHZEe6RAbX4VU2fXA"/>
+    </stereotypes>
+    <visibility xmi:id="_4cAvk_HZEe6RAbX4VU2fXA" label="+"/>
+    <literals xmi:id="_4cAvlPHZEe6RAbX4VU2fXA" name="ROUGE">
+      <modelElement href="LesPirates.uml#_3-yBAvHZEe6RAbX4VU2fXA"/>
+    </literals>
+    <literals xmi:id="_4cAvlfHZEe6RAbX4VU2fXA" name="BLEU">
+      <modelElement href="LesPirates.uml#_3-yBA_HZEe6RAbX4VU2fXA"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_4ccNYPHZEe6RAbX4VU2fXA" name="Type">
+    <modelElement href="LesPirates.uml#_3_CfsPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4ccNYfHZEe6RAbX4VU2fXA" position="-697.0,376.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4ccNYvHZEe6RAbX4VU2fXA" label="+"/>
+    <attributes xmi:id="_4ccNY_HZEe6RAbX4VU2fXA" name="quantite">
+      <modelElement href="LesPirates.uml#_3_-T0PHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4ccNZPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4ccNZfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4ccNZvHZEe6RAbX4VU2fXA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_4ccNZ_HZEe6RAbX4VU2fXA" name="Type">
+      <modelElement href="LesPirates.uml#_3_EU4PHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4ccNaPHZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4ccNafHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4ccNavHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4ccNa_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_E78vHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4ccNbPHZEe6RAbX4VU2fXA" name="Type">
+          <modelElement href="LesPirates.uml#_3_CfsPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4ccNbfHZEe6RAbX4VU2fXA" name="quantite">
+        <modelElement href="LesPirates.uml#_3_EU4fHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4ccNbvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4ccNb_HZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <literals xmi:id="_4ccNcPHZEe6RAbX4VU2fXA" name="SAKE">
+      <modelElement href="LesPirates.uml#_3_DGwPHZEe6RAbX4VU2fXA"/>
+    </literals>
+    <literals xmi:id="_4ccNcfHZEe6RAbX4VU2fXA" name="KRAKEN">
+      <modelElement href="LesPirates.uml#_3_DGwvHZEe6RAbX4VU2fXA"/>
+    </literals>
+    <literals xmi:id="_4ccNcvHZEe6RAbX4VU2fXA" name="POTION">
+      <modelElement href="LesPirates.uml#_3_DGxPHZEe6RAbX4VU2fXA"/>
+    </literals>
+    <literals xmi:id="_4ccNc_HZEe6RAbX4VU2fXA" name="PERROQUET">
+      <modelElement href="LesPirates.uml#_3_DGxvHZEe6RAbX4VU2fXA"/>
+    </literals>
+    <literals xmi:id="_4ccNdPHZEe6RAbX4VU2fXA" name="SABRE">
+      <modelElement href="LesPirates.uml#_3_DGyPHZEe6RAbX4VU2fXA"/>
+    </literals>
+    <literals xmi:id="_4ccNdfHZEe6RAbX4VU2fXA" name="REVOLVER">
+      <modelElement href="LesPirates.uml#_3_DGyvHZEe6RAbX4VU2fXA"/>
+    </literals>
+    <literals xmi:id="_4ccNdvHZEe6RAbX4VU2fXA" name="DOUBLE_CANON">
+      <modelElement href="LesPirates.uml#_3_DGzPHZEe6RAbX4VU2fXA"/>
+    </literals>
+    <literals xmi:id="_4ccNd_HZEe6RAbX4VU2fXA" name="STORM">
+      <modelElement href="LesPirates.uml#_3_Dt0fHZEe6RAbX4VU2fXA"/>
+    </literals>
+    <literals xmi:id="_4ccNePHZEe6RAbX4VU2fXA" name="BARQUE">
+      <modelElement href="LesPirates.uml#_3_Dt0_HZEe6RAbX4VU2fXA"/>
+    </literals>
+    <literals xmi:id="_4ccNefHZEe6RAbX4VU2fXA" name="NORMAL">
+      <modelElement href="LesPirates.uml#_3_Dt1fHZEe6RAbX4VU2fXA"/>
+    </literals>
+    <literals xmi:id="_4ccNevHZEe6RAbX4VU2fXA" name="CASES">
+      <modelElement href="LesPirates.uml#_3_Dt1_HZEe6RAbX4VU2fXA"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4b2XifHZEe6RAbX4VU2fXA" name="Pirates" associationsOut="_4b2XgPHZEe6RAbX4VU2fXA" subclassedBy="_4bz7QPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3-z2MPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4b2XivHZEe6RAbX4VU2fXA" position="-687.0,-106.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4b2Xi_HZEe6RAbX4VU2fXA" label="+"/>
+    <attributes xmi:id="_4b2XjPHZEe6RAbX4VU2fXA" name="nom">
+      <modelElement href="LesPirates.uml#_3_73kPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b2XjfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b2XjvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4b2Xj_HZEe6RAbX4VU2fXA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4b2XkPHZEe6RAbX4VU2fXA" defaultValue="5" name="vie">
+      <modelElement href="LesPirates.uml#_3_73kfHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b2XkfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b2XkvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4b2Xk_HZEe6RAbX4VU2fXA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4b2-kPHZEe6RAbX4VU2fXA" defaultValue="new ArrayList&lt;>()" name="inventaire">
+      <modelElement href="LesPirates.uml#_3_73k_HZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4b2-kfHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_73lvHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4b2-kvHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4b2-k_HZEe6RAbX4VU2fXA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_4b2-lPHZEe6RAbX4VU2fXA" name="Object">
+        <modelElement href="LesPirates.uml#_3_2YAfHZEe6RAbX4VU2fXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4b2-lfHZEe6RAbX4VU2fXA" defaultValue="false" name="immunite">
+      <modelElement href="LesPirates.uml#_3_73l_HZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4b2-lvHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_8eofHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4b2-l_HZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4b2-mPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4b2-mfHZEe6RAbX4VU2fXA" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_4b2-mvHZEe6RAbX4VU2fXA" name="Pirates">
+      <modelElement href="LesPirates.uml#_3-0dQPHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4b2-m_HZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4b2-nPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b2-nfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4b2-nvHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3-0dRPHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4b2-n_HZEe6RAbX4VU2fXA" name="Pirates">
+          <modelElement href="LesPirates.uml#_3-z2MPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4b2-oPHZEe6RAbX4VU2fXA" name="nom">
+        <modelElement href="LesPirates.uml#_3-0dQfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4b2-ofHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4b2-ovHZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4b2-o_HZEe6RAbX4VU2fXA" name="perdreVie">
+      <modelElement href="LesPirates.uml#_3-0dRfHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b2-pPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b2-pfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4b2-pvHZEe6RAbX4VU2fXA" name="pv">
+        <modelElement href="LesPirates.uml#_3-0dRvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4b2-p_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4b2-qPHZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4b2-qfHZEe6RAbX4VU2fXA" name="gagnerVie">
+      <modelElement href="LesPirates.uml#_3-1EUPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b2-qvHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b2-q_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4b2-rPHZEe6RAbX4VU2fXA" name="pv">
+        <modelElement href="LesPirates.uml#_3-1EUfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4b2-rfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4b2-rvHZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4b2-r_HZEe6RAbX4VU2fXA" name="aImmunite">
+      <modelElement href="LesPirates.uml#_3-1EUvHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b2-sPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b2-sfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4b2-svHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3-1EU_HZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4b2-s_HZEe6RAbX4VU2fXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4b2-tPHZEe6RAbX4VU2fXA" name="activerImmunite">
+      <modelElement href="LesPirates.uml#_3-1EVPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b2-tfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b2-tvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_4b2-t_HZEe6RAbX4VU2fXA" name="ajouterObjet">
+      <modelElement href="LesPirates.uml#_3_qx0PHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4b2-uPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4b2-ufHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4b2-uvHZEe6RAbX4VU2fXA" name="objet">
+        <modelElement href="LesPirates.uml#_3_qx0fHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4b2-u_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4b2-vPHZEe6RAbX4VU2fXA" name="Type">
+          <modelElement href="LesPirates.uml#_3_CfsPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_4bLpIPHZEe6RAbX4VU2fXA" name="Iaffichage" subclassedBy="_4bJz8PHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3-shcPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4bLpIfHZEe6RAbX4VU2fXA" position="277.0,-124.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4bLpIvHZEe6RAbX4VU2fXA" label="+"/>
+    <operations xmi:id="_4bLpI_HZEe6RAbX4VU2fXA" name="afficherResultatDes">
+      <modelElement href="LesPirates.uml#_3-shcfHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bLpJPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bLpJfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4bLpJvHZEe6RAbX4VU2fXA" name="resultat">
+        <modelElement href="LesPirates.uml#_3-shcvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4bLpJ_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4bLpKPHZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4bLpKfHZEe6RAbX4VU2fXA" name="afficherEffetCase">
+      <modelElement href="LesPirates.uml#_3-tIgPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bLpKvHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bLpK_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4bLpLPHZEe6RAbX4VU2fXA" name="message">
+        <modelElement href="LesPirates.uml#_3-tIgfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4bLpLfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4bLpLvHZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4bLpL_HZEe6RAbX4VU2fXA" name="afficherTypeCase">
+      <modelElement href="LesPirates.uml#_3_l5UPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bLpMPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bLpMfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4bLpMvHZEe6RAbX4VU2fXA" name="caseActuelle">
+        <modelElement href="LesPirates.uml#_3_l5UfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4bLpM_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4bLpNPHZEe6RAbX4VU2fXA" name="Case">
+          <modelElement href="LesPirates.uml#_3-25gPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4bLpNfHZEe6RAbX4VU2fXA" name="afficherPosition">
+      <modelElement href="LesPirates.uml#_3_l5UvHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bLpNvHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bLpN_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4bLpOPHZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_l5U_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4bLpOfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4bLpOvHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4bLpO_HZEe6RAbX4VU2fXA" name="afficherChangementPV">
+      <modelElement href="LesPirates.uml#_3_l5VPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bLpPPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bLpPfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4bLpPvHZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_l5VfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4bLpP_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4bLpQPHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4bLpQfHZEe6RAbX4VU2fXA" name="pvGagnesPerdus">
+        <modelElement href="LesPirates.uml#_3_l5VvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4bLpQvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4bLpQ_HZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4bLpRPHZEe6RAbX4VU2fXA" name="afficherPV">
+      <modelElement href="LesPirates.uml#_3_mgYPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4bLpRfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4bLpRvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4bLpR_HZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_mgYfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4bLpSPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4bLpSfHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4aRqMPHZEe6RAbX4VU2fXA" name="Affichage" associationsIn="_4bfyMPHZEe6RAbX4VU2fXA" generalizations="_4bJz8PHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3-oQAPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4aRqMfHZEe6RAbX4VU2fXA" position="220.0,151.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4aRqMvHZEe6RAbX4VU2fXA" label="+"/>
+    <operations xmi:id="_4aRqM_HZEe6RAbX4VU2fXA" name="afficherResultatDes">
+      <modelElement href="LesPirates.uml#_3-o3EPHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4aRqNPHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3-peIPHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4aRqNfHZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3-peIfHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4aRqNvHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4aRqN_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4aRqOPHZEe6RAbX4VU2fXA" name="resultat">
+        <modelElement href="LesPirates.uml#_3-o3EfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqOfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4aRqOvHZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4aRqO_HZEe6RAbX4VU2fXA" name="afficherEffetCase">
+      <modelElement href="LesPirates.uml#_3-qFMPHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4aRqPPHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3-qFMvHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4aRqPfHZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3-qFM_HZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4aRqPvHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4aRqP_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4aRqQPHZEe6RAbX4VU2fXA" name="message">
+        <modelElement href="LesPirates.uml#_3-qFMfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqQfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4aRqQvHZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4aRqQ_HZEe6RAbX4VU2fXA" name="lancerDe">
+      <modelElement href="LesPirates.uml#_3-qsQPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4aRqRPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4aRqRfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_4aRqRvHZEe6RAbX4VU2fXA" name="afficherMessage">
+      <modelElement href="LesPirates.uml#_3-qsQfHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4aRqR_HZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4aRqSPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4aRqSfHZEe6RAbX4VU2fXA" name="string">
+        <modelElement href="LesPirates.uml#_3-qsQvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqSvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4aRqS_HZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4aRqTPHZEe6RAbX4VU2fXA" name="afficherTypeCase">
+      <modelElement href="LesPirates.uml#_3_i2APHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4aRqTfHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_i2AvHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4aRqTvHZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3_i2A_HZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4aRqT_HZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4aRqUPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4aRqUfHZEe6RAbX4VU2fXA" name="caseActuelle">
+        <modelElement href="LesPirates.uml#_3_i2AfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqUvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4aRqU_HZEe6RAbX4VU2fXA" name="Case">
+          <modelElement href="LesPirates.uml#_3-25gPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4aRqVPHZEe6RAbX4VU2fXA" name="afficherPosition">
+      <modelElement href="LesPirates.uml#_3_jdEPHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4aRqVfHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_jdEvHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4aRqVvHZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3_jdE_HZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4aRqV_HZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4aRqWPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4aRqWfHZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_jdEfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqWvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4aRqW_HZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4aRqXPHZEe6RAbX4VU2fXA" name="afficherChangementPV">
+      <modelElement href="LesPirates.uml#_3_jdFfHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4aRqXfHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_jdGPHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4aRqXvHZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3_kEIPHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4aRqX_HZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4aRqYPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4aRqYfHZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_jdFvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqYvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4aRqY_HZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4aRqZPHZEe6RAbX4VU2fXA" name="pvGagnesPerdus">
+        <modelElement href="LesPirates.uml#_3_jdF_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqZfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4aRqZvHZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4aRqZ_HZEe6RAbX4VU2fXA" name="afficherPV">
+      <modelElement href="LesPirates.uml#_3_kEIvHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4aRqaPHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_kEJPHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4aRqafHZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3_kEJfHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4aRqavHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4aRqa_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4aRqbPHZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_kEI_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqbfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4aRqbvHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4aRqb_HZEe6RAbX4VU2fXA" name="afficherPlateauGraphique">
+      <modelElement href="LesPirates.uml#_3_krMPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4aRqcPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4aRqcfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4aRqcvHZEe6RAbX4VU2fXA" name="plateau">
+        <modelElement href="LesPirates.uml#_3_krMfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqc_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4aRqdPHZEe6RAbX4VU2fXA" name="Plateau">
+          <modelElement href="LesPirates.uml#_3--OQPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4aRqdfHZEe6RAbX4VU2fXA" name="pionJack">
+        <modelElement href="LesPirates.uml#_3_krMvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqdvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4aRqd_HZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4aRqePHZEe6RAbX4VU2fXA" name="pionBill">
+        <modelElement href="LesPirates.uml#_3_krM_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqefHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4aRqevHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4aRqe_HZEe6RAbX4VU2fXA" name="afficherFinDeJeu">
+      <modelElement href="LesPirates.uml#_3_krNPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4aRqfPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4aRqffHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4aRqfvHZEe6RAbX4VU2fXA" name="gagnant">
+        <modelElement href="LesPirates.uml#_3_krNfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqf_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4aRqgPHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4aRqgfHZEe6RAbX4VU2fXA" name="afficherPlateau">
+      <modelElement href="LesPirates.uml#_3_krNvHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4aRqgvHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4aRqg_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4aRqhPHZEe6RAbX4VU2fXA" name="cases">
+        <modelElement href="LesPirates.uml#_3_krN_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqhfHZEe6RAbX4VU2fXA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_4aRqhvHZEe6RAbX4VU2fXA" name="Case">
+          <modelElement href="LesPirates.uml#_3-25gPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4aRqh_HZEe6RAbX4VU2fXA" name="afficherImmunite">
+      <modelElement href="LesPirates.uml#_3_lSQPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4aRqiPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4aRqifHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4aRqivHZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_lSQfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4aRqi_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4aRqjPHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4cTDcPHZEe6RAbX4VU2fXA" name="Sake" generalizations="_4cScYPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3_BRkPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4cTDcfHZEe6RAbX4VU2fXA" position="-104.0,1079.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4cTDcvHZEe6RAbX4VU2fXA" label="+"/>
+    <operations xmi:id="_4cTDc_HZEe6RAbX4VU2fXA" name="Sake">
+      <modelElement href="LesPirates.uml#_3_B4oPHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4cTDdPHZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4cTDdfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cTDdvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cTDd_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_B4pPHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cTDePHZEe6RAbX4VU2fXA" name="Sake">
+          <modelElement href="LesPirates.uml#_3_BRkPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cTDefHZEe6RAbX4VU2fXA" name="numero">
+        <modelElement href="LesPirates.uml#_3_B4ofHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cTDevHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cTDe_HZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4cTDfPHZEe6RAbX4VU2fXA" name="effet">
+      <modelElement href="LesPirates.uml#_3_zUsfHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4cTDffHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_zUtvHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4cTDfvHZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3_z7wPHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4cTDf_HZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cTDgPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cTDgfHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_zUtfHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cTDgvHZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cTDg_HZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_zUsvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cTDhPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cTDhfHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cTDhvHZEe6RAbX4VU2fXA" name="adversaire">
+        <modelElement href="LesPirates.uml#_3_zUs_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cTDh_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cTDiPHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cTDifHZEe6RAbX4VU2fXA" name="plateau">
+        <modelElement href="LesPirates.uml#_3_zUtPHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cTDivHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cTDi_HZEe6RAbX4VU2fXA" name="Plateau">
+          <modelElement href="LesPirates.uml#_3--OQPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4ckJMPHZEe6RAbX4VU2fXA" name="Kraken" generalizations="_4ci7EPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3-7K8PHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4ckJMfHZEe6RAbX4VU2fXA" position="-106.0,937.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4ckJMvHZEe6RAbX4VU2fXA" label="+"/>
+    <operations xmi:id="_4ckJM_HZEe6RAbX4VU2fXA" name="Kraken">
+      <modelElement href="LesPirates.uml#_3-7K8fHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4ckJNPHZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4ckJNfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4ckJNvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4ckJN_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3-7yAvHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4ckJOPHZEe6RAbX4VU2fXA" name="Kraken">
+          <modelElement href="LesPirates.uml#_3-7K8PHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4ckJOfHZEe6RAbX4VU2fXA" name="numero">
+        <modelElement href="LesPirates.uml#_3-7K8vHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4ckJOvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4ckJO_HZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4ckJPPHZEe6RAbX4VU2fXA" name="effet">
+      <modelElement href="LesPirates.uml#_3_vqUfHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4ckJPfHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_vqVvHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4ckJPvHZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3_wRYPHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4ckJP_HZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4ckJQPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4ckJQfHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_vqVfHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4ckJQvHZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4ckJQ_HZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_vqUvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4ckJRPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4ckJRfHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4ckJRvHZEe6RAbX4VU2fXA" name="adversaire">
+        <modelElement href="LesPirates.uml#_3_vqU_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4ckJR_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4ckJSPHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4ckJSfHZEe6RAbX4VU2fXA" name="plateau">
+        <modelElement href="LesPirates.uml#_3_vqVPHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4ckJSvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4ckJS_HZEe6RAbX4VU2fXA" name="Plateau">
+          <modelElement href="LesPirates.uml#_3--OQPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4cPZEPHZEe6RAbX4VU2fXA" name="Normal" generalizations="_4cOyAPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3-8ZEPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4cPZEfHZEe6RAbX4VU2fXA" position="-606.0,943.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4cPZEvHZEe6RAbX4VU2fXA" label="+"/>
+    <operations xmi:id="_4cPZE_HZEe6RAbX4VU2fXA" name="Normal">
+      <modelElement href="LesPirates.uml#_3-8ZEfHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4cPZFPHZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4cPZFfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cPZFvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cPZF_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3-8ZFfHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cPZGPHZEe6RAbX4VU2fXA" name="Normal">
+          <modelElement href="LesPirates.uml#_3-8ZEPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cPZGfHZEe6RAbX4VU2fXA" name="numero">
+        <modelElement href="LesPirates.uml#_3-8ZEvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cPZGvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cPZG_HZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4cPZHPHZEe6RAbX4VU2fXA" name="effet">
+      <modelElement href="LesPirates.uml#_3_wRY_HZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4cPZHfHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_w4cPHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4cPZHvHZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3_w4cfHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4cPZH_HZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cPZIPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cPZIfHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_wRZ_HZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cPZIvHZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cPZI_HZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_wRZPHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cPZJPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cPZJfHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cPZJvHZEe6RAbX4VU2fXA" name="adversaire">
+        <modelElement href="LesPirates.uml#_3_wRZfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cPZJ_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cPZKPHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cPZKfHZEe6RAbX4VU2fXA" name="plateau">
+        <modelElement href="LesPirates.uml#_3_wRZvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cPZKvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cPZK_HZEe6RAbX4VU2fXA" name="Plateau">
+          <modelElement href="LesPirates.uml#_3--OQPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4caYMPHZEe6RAbX4VU2fXA" name="Potion" generalizations="_4cZxIPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3_ADcPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4caYMfHZEe6RAbX4VU2fXA" position="423.0,803.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4caYMvHZEe6RAbX4VU2fXA" label="+"/>
+    <operations xmi:id="_4caYM_HZEe6RAbX4VU2fXA" name="Potion">
+      <modelElement href="LesPirates.uml#_3_AqgPHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4caYNPHZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4caYNfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4caYNvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4caYN_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_AqhPHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4caYOPHZEe6RAbX4VU2fXA" name="Potion">
+          <modelElement href="LesPirates.uml#_3_ADcPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4caYOfHZEe6RAbX4VU2fXA" name="numero">
+        <modelElement href="LesPirates.uml#_3_AqgfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4caYOvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4caYO_HZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4caYPPHZEe6RAbX4VU2fXA" name="effet">
+      <modelElement href="LesPirates.uml#_3_ytoPHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4caYPfHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_ytpfHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4caYPvHZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3_ytpvHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4caYP_HZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4caYQPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4caYQfHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_ytpPHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4caYQvHZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4caYQ_HZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_ytofHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4caYRPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4caYRfHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4caYRvHZEe6RAbX4VU2fXA" name="adversaire">
+        <modelElement href="LesPirates.uml#_3_ytovHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4caYR_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4caYSPHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4caYSfHZEe6RAbX4VU2fXA" name="plateau">
+        <modelElement href="LesPirates.uml#_3_yto_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4caYSvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4caYS_HZEe6RAbX4VU2fXA" name="Plateau">
+          <modelElement href="LesPirates.uml#_3--OQPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4cG2N_HZEe6RAbX4VU2fXA" name="Deplacement" generalizations="_4cFBAPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3-4usPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4cG2OPHZEe6RAbX4VU2fXA" position="-594.0,801.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4cG2OfHZEe6RAbX4VU2fXA" label="+"/>
+    <attributes xmi:id="_4cG2OvHZEe6RAbX4VU2fXA" name="typeDeplacement">
+      <modelElement href="LesPirates.uml#_3_9FtPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4cG2O_HZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cG2PPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4cG2PfHZEe6RAbX4VU2fXA" name="Type">
+        <modelElement href="LesPirates.uml#_3_CfsPHZEe6RAbX4VU2fXA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_4cG2PvHZEe6RAbX4VU2fXA" name="Deplacement">
+      <modelElement href="LesPirates.uml#_3_t1IPHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4cG2P_HZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4cG2QPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cG2QfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cG2QvHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_t1JfHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cG2Q_HZEe6RAbX4VU2fXA" name="Deplacement">
+          <modelElement href="LesPirates.uml#_3-4usPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cG2RPHZEe6RAbX4VU2fXA" name="numero">
+        <modelElement href="LesPirates.uml#_3_t1IfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cG2RfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cG2RvHZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cG2R_HZEe6RAbX4VU2fXA" name="typeDeplacement">
+        <modelElement href="LesPirates.uml#_3_t1IvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cG2SPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cG2SfHZEe6RAbX4VU2fXA" name="Type">
+          <modelElement href="LesPirates.uml#_3_CfsPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4cG2SvHZEe6RAbX4VU2fXA" name="effet">
+      <modelElement href="LesPirates.uml#_3_t1JvHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4cG2S_HZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_ucMfHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4cG2TPHZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3_ucMvHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4cG2TfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cG2TvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cG2T_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_ucMPHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cG2UPHZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cG2UfHZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_t1J_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cG2UvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cG2U_HZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cG2VPHZEe6RAbX4VU2fXA" name="adversaire">
+        <modelElement href="LesPirates.uml#_3_t1KPHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cG2VfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cG2VvHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cG2V_HZEe6RAbX4VU2fXA" name="plateau">
+        <modelElement href="LesPirates.uml#_3_t1KfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cHdQPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cHdQfHZEe6RAbX4VU2fXA" name="Plateau">
+          <modelElement href="LesPirates.uml#_3--OQPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4cM80PHZEe6RAbX4VU2fXA" name="DoubleCanon" generalizations="_4cMVwPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3-580PHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4cM80fHZEe6RAbX4VU2fXA" position="-113.0,816.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4cM80vHZEe6RAbX4VU2fXA" label="+"/>
+    <operations xmi:id="_4cM80_HZEe6RAbX4VU2fXA" name="DoubleCanon">
+      <modelElement href="LesPirates.uml#_3-6j4PHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4cM81PHZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4cM81fHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cM81vHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cNj4PHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3-6j5PHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cNj4fHZEe6RAbX4VU2fXA" name="DoubleCanon">
+          <modelElement href="LesPirates.uml#_3-580PHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cNj4vHZEe6RAbX4VU2fXA" name="numero">
+        <modelElement href="LesPirates.uml#_3-6j4fHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cNj4_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cNj5PHZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4cNj5fHZEe6RAbX4VU2fXA" name="effet">
+      <modelElement href="LesPirates.uml#_3_vDQPHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4cNj5vHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_vDRfHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4cNj5_HZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3_vDRvHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4cNj6PHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cNj6fHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cNj6vHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_vDRPHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cNj6_HZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cNj7PHZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_vDQfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cNj7fHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cNj7vHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cNj7_HZEe6RAbX4VU2fXA" name="adversaire">
+        <modelElement href="LesPirates.uml#_3_vDQvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cNj8PHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cNj8fHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cNj8vHZEe6RAbX4VU2fXA" name="plateau">
+        <modelElement href="LesPirates.uml#_3_vDQ_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cNj8_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cNj9PHZEe6RAbX4VU2fXA" name="Plateau">
+          <modelElement href="LesPirates.uml#_3--OQPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4cJ5gPHZEe6RAbX4VU2fXA" name="Plateau" associationsIn="_4bi1gPHZEe6RAbX4VU2fXA" associationsOut="_4cFoEPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3--OQPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4cJ5gfHZEe6RAbX4VU2fXA" position="-217.0,453.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4cJ5gvHZEe6RAbX4VU2fXA" label="+"/>
+    <attributes xmi:id="_4cJ5g_HZEe6RAbX4VU2fXA" name="cases">
+      <modelElement href="LesPirates.uml#_3_9swPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4cJ5hPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cJ5hfHZEe6RAbX4VU2fXA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_4cJ5hvHZEe6RAbX4VU2fXA" name="Case">
+        <modelElement href="LesPirates.uml#_3-25gPHZEe6RAbX4VU2fXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4cJ5h_HZEe6RAbX4VU2fXA" defaultValue="Type.CASES.getQuantite()" name="nbCases">
+      <modelElement href="LesPirates.uml#_3_9sw_HZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4cJ5iPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cJ5ifHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4cJ5ivHZEe6RAbX4VU2fXA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_4cJ5i_HZEe6RAbX4VU2fXA" name="Plateau">
+      <modelElement href="LesPirates.uml#_3--1UPHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4cJ5jPHZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4cJ5jfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cJ5jvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cJ5j_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3--1VPHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cJ5kPHZEe6RAbX4VU2fXA" name="Plateau">
+          <modelElement href="LesPirates.uml#_3--OQPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cJ5kfHZEe6RAbX4VU2fXA" name="nbCases">
+        <modelElement href="LesPirates.uml#_3--1UfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cJ5kvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cJ5k_HZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4cJ5lPHZEe6RAbX4VU2fXA" name="initialiserPlateau">
+      <modelElement href="LesPirates.uml#_3-_cYPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4cJ5lfHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4cJ5lvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_4cJ5l_HZEe6RAbX4VU2fXA" name="genererCases">
+      <modelElement href="LesPirates.uml#_3_yGkPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4cJ5mPHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4cJ5mfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4cJ5mvHZEe6RAbX4VU2fXA" name="type">
+        <modelElement href="LesPirates.uml#_3_yGkfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cJ5m_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cJ5nPHZEe6RAbX4VU2fXA" name="Type">
+          <modelElement href="LesPirates.uml#_3_CfsPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4cJ5nfHZEe6RAbX4VU2fXA" name="creerCase">
+      <modelElement href="LesPirates.uml#_3_yGkvHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4cJ5nvHZEe6RAbX4VU2fXA" label="-"/>
+      <cardinality xmi:id="_4cJ5n_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cJ5oPHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_yGlfHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cJ5ofHZEe6RAbX4VU2fXA" name="Case">
+          <modelElement href="LesPirates.uml#_3-25gPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cJ5ovHZEe6RAbX4VU2fXA" name="type">
+        <modelElement href="LesPirates.uml#_3_yGk_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cJ5o_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cJ5pPHZEe6RAbX4VU2fXA" name="Type">
+          <modelElement href="LesPirates.uml#_3_CfsPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cJ5pfHZEe6RAbX4VU2fXA" name="numero">
+        <modelElement href="LesPirates.uml#_3_yGlPHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cJ5pvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cJ5p_HZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4cl-YPHZEe6RAbX4VU2fXA" name="TestJeu">
+    <modelElement href="LesPirates.uml#_3_FjAPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4cl-YfHZEe6RAbX4VU2fXA" position="-457.0,573.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4cl-YvHZEe6RAbX4VU2fXA" label="+"/>
+    <operations xmi:id="_4cl-Y_HZEe6RAbX4VU2fXA" name="main" staticOperation="true">
+      <modelElement href="LesPirates.uml#_3_GKEPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4cl-ZPHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cl-ZfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4cl-ZvHZEe6RAbX4VU2fXA" name="args">
+        <modelElement href="LesPirates.uml#_3_GKEfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cl-Z_HZEe6RAbX4VU2fXA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_4cl-aPHZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4cVfsPHZEe6RAbX4VU2fXA" name="Case" abstractClass="true" associationsIn="_4cFoEPHZEe6RAbX4VU2fXA" subclassedBy="_4cFBAPHZEe6RAbX4VU2fXA _4cMVwPHZEe6RAbX4VU2fXA _4cOyAPHZEe6RAbX4VU2fXA _4cQnMPHZEe6RAbX4VU2fXA _4cScYPHZEe6RAbX4VU2fXA _4cZxIPHZEe6RAbX4VU2fXA _4cge0PHZEe6RAbX4VU2fXA _4ci7EPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3-25gPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4cVfsfHZEe6RAbX4VU2fXA" position="288.0,455.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4cVfsvHZEe6RAbX4VU2fXA" label="+"/>
+    <attributes xmi:id="_4cVfs_HZEe6RAbX4VU2fXA" name="numero">
+      <modelElement href="LesPirates.uml#_3_9FsPHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4cVftPHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_9FsfHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4cVftfHZEe6RAbX4VU2fXA" label="#"/>
+      <cardinality xmi:id="_4cVftvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4cVft_HZEe6RAbX4VU2fXA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4cVfuPHZEe6RAbX4VU2fXA" name="type">
+      <modelElement href="LesPirates.uml#_3_9FsvHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4cVfufHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_9Fs_HZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4cVfuvHZEe6RAbX4VU2fXA" label="#"/>
+      <cardinality xmi:id="_4cVfu_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4cVfvPHZEe6RAbX4VU2fXA" name="Type">
+        <modelElement href="LesPirates.uml#_3_CfsPHZEe6RAbX4VU2fXA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_4cVfvfHZEe6RAbX4VU2fXA" name="getNumero">
+      <modelElement href="LesPirates.uml#_3-3gkPHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4cVfvvHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cVfv_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cVfwPHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3-3gkfHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cVfwfHZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4cVfwvHZEe6RAbX4VU2fXA" name="getType">
+      <modelElement href="LesPirates.uml#_3-3gkvHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4cVfw_HZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cVfxPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cVfxfHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_tOEPHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cVfxvHZEe6RAbX4VU2fXA" name="Type">
+          <modelElement href="LesPirates.uml#_3_CfsPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4cVfx_HZEe6RAbX4VU2fXA" name="Case">
+      <modelElement href="LesPirates.uml#_3_snAfHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4cVfyPHZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4cVfyfHZEe6RAbX4VU2fXA" label="#"/>
+      <cardinality xmi:id="_4cVfyvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cVfy_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_snBvHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cVfzPHZEe6RAbX4VU2fXA" name="Case">
+          <modelElement href="LesPirates.uml#_3-25gPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cVfzfHZEe6RAbX4VU2fXA" name="numero">
+        <modelElement href="LesPirates.uml#_3_snAvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cVfzvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cVfz_HZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cVf0PHZEe6RAbX4VU2fXA" name="type">
+        <modelElement href="LesPirates.uml#_3_snA_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cVf0fHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cVf0vHZEe6RAbX4VU2fXA" name="Type">
+          <modelElement href="LesPirates.uml#_3_CfsPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4cVf0_HZEe6RAbX4VU2fXA" abstractOperation="true" name="effet">
+      <modelElement href="LesPirates.uml#_3_tOEfHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4cVf1PHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cVf1fHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cVf1vHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_tOFfHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cVf1_HZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cVf2PHZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_tOEvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cVf2fHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cVf2vHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cVf2_HZEe6RAbX4VU2fXA" name="adversaire">
+        <modelElement href="LesPirates.uml#_3_tOE_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cVf3PHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cVf3fHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cVf3vHZEe6RAbX4VU2fXA" name="plateau">
+        <modelElement href="LesPirates.uml#_3_tOFPHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cVf3_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cVf4PHZEe6RAbX4VU2fXA" name="Plateau">
+          <modelElement href="LesPirates.uml#_3--OQPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4chF4PHZEe6RAbX4VU2fXA" name="Arme" generalizations="_4cge0PHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3-1rYPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4chF4fHZEe6RAbX4VU2fXA" position="421.0,927.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4chF4vHZEe6RAbX4VU2fXA" label="+"/>
+    <attributes xmi:id="_4chF4_HZEe6RAbX4VU2fXA" name="typeArme">
+      <modelElement href="LesPirates.uml#_3_8eovHZEe6RAbX4VU2fXA"/>
+      <visibility xmi:id="_4chF5PHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4chF5fHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <type xmi:id="_4chF5vHZEe6RAbX4VU2fXA" name="Type">
+        <modelElement href="LesPirates.uml#_3_CfsPHZEe6RAbX4VU2fXA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_4chF5_HZEe6RAbX4VU2fXA" name="Arme">
+      <modelElement href="LesPirates.uml#_3_rY4PHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4chF6PHZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4chF6fHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4chF6vHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4chF6_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_rY5fHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4chF7PHZEe6RAbX4VU2fXA" name="Arme">
+          <modelElement href="LesPirates.uml#_3-1rYPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4chF7fHZEe6RAbX4VU2fXA" name="numero">
+        <modelElement href="LesPirates.uml#_3_rY4fHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4chF7vHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4chF7_HZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4chF8PHZEe6RAbX4VU2fXA" name="typeArme">
+        <modelElement href="LesPirates.uml#_3_rY4vHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4chF8fHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4chF8vHZEe6RAbX4VU2fXA" name="Type">
+          <modelElement href="LesPirates.uml#_3_CfsPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4chF8_HZEe6RAbX4VU2fXA" name="effet">
+      <modelElement href="LesPirates.uml#_3_r_8PHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4chF9PHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_r_9fHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4chF9fHZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3_r_9vHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4chF9vHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4chF9_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4chF-PHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_r_9PHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4chF-fHZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4chF-vHZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_r_8fHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4chF-_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4chF_PHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4chF_fHZEe6RAbX4VU2fXA" name="adversaire">
+        <modelElement href="LesPirates.uml#_3_r_8vHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4chF_vHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4chF__HZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4chGAPHZEe6RAbX4VU2fXA" name="plateau">
+        <modelElement href="LesPirates.uml#_3_r_8_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4chGAfHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4chGAvHZEe6RAbX4VU2fXA" name="Plateau">
+          <modelElement href="LesPirates.uml#_3--OQPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4cROQPHZEe6RAbX4VU2fXA" name="Perroquet" generalizations="_4cQnMPHZEe6RAbX4VU2fXA">
+    <modelElement href="LesPirates.uml#_3-9nMPHZEe6RAbX4VU2fXA"/>
+    <visualProperties xmi:id="_4cROQfHZEe6RAbX4VU2fXA" position="421.0,1076.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4cROQvHZEe6RAbX4VU2fXA" label="+"/>
+    <operations xmi:id="_4cROQ_HZEe6RAbX4VU2fXA" name="Perroquet">
+      <modelElement href="LesPirates.uml#_3-9nMfHZEe6RAbX4VU2fXA"/>
+      <keywords xmi:id="_4cRORPHZEe6RAbX4VU2fXA" keyword="create"/>
+      <visibility xmi:id="_4cRORfHZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cRORvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cROR_HZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3-9nNfHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cROSPHZEe6RAbX4VU2fXA" name="Perroquet">
+          <modelElement href="LesPirates.uml#_3-9nMPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cROSfHZEe6RAbX4VU2fXA" name="numero">
+        <modelElement href="LesPirates.uml#_3-9nMvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cROSvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cROS_HZEe6RAbX4VU2fXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4cROTPHZEe6RAbX4VU2fXA" name="effet">
+      <modelElement href="LesPirates.uml#_3_w4dPHZEe6RAbX4VU2fXA"/>
+      <stereotypes xmi:id="_4cROTfHZEe6RAbX4VU2fXA" name="LegacyStyledElement">
+        <modelElement href="LesPirates.uml#_3_xfgfHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4cROTvHZEe6RAbX4VU2fXA" name="Annotations">
+        <modelElement href="LesPirates.uml#_3_xfgvHZEe6RAbX4VU2fXA"/>
+      </stereotypes>
+      <visibility xmi:id="_4cROT_HZEe6RAbX4VU2fXA" label="+"/>
+      <cardinality xmi:id="_4cROUPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4cROUfHZEe6RAbX4VU2fXA">
+        <modelElement href="LesPirates.uml#_3_xfgPHZEe6RAbX4VU2fXA"/>
+        <type xmi:id="_4cROUvHZEe6RAbX4VU2fXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4cROU_HZEe6RAbX4VU2fXA" name="pion">
+        <modelElement href="LesPirates.uml#_3_w4dfHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cROVPHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cROVfHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cROVvHZEe6RAbX4VU2fXA" name="adversaire">
+        <modelElement href="LesPirates.uml#_3_w4dvHZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cROV_HZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cROWPHZEe6RAbX4VU2fXA" name="Pions">
+          <modelElement href="LesPirates.uml#_3-yBBPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4cROWfHZEe6RAbX4VU2fXA" name="plateau">
+        <modelElement href="LesPirates.uml#_3_w4d_HZEe6RAbX4VU2fXA"/>
+        <cardinality xmi:id="_4cROWvHZEe6RAbX4VU2fXA" label="1" max="1" min="1"/>
+        <type xmi:id="_4cROW_HZEe6RAbX4VU2fXA" name="Plateau">
+          <modelElement href="LesPirates.uml#_3--OQPHZEe6RAbX4VU2fXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

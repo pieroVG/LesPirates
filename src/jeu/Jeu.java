@@ -27,63 +27,64 @@ public class Jeu {
     }
     
     private void tourPion(Pions pion, Pions adversaire) {
+    	String deplacement;
         affichage.lancerDe();
         scanner.nextLine();
         
         int res = de.resultatDes();
         affichage.afficherResultatDes(res); 
-        pion.deplacer(res);
         
-        Case caseActuelle = plateau.getCases()[pion.getPosition()];
-        if (caseActuelle != null) {
-            affichage.afficherTypeCase(caseActuelle);
-            affichage.afficherEffetCase(caseActuelle.effet(pion, adversaire, plateau));
-            affichage.afficherImmunite(pion);
+        deplacement = pion.deplacer(res);
+        if (deplacement != null) {
+            affichage.afficherMessage(deplacement);
         }
         
+        Case caseActuelle = plateau.getCases()[pion.getPosition()];
+        affichage.afficherTypeCase(caseActuelle);
+        affichage.afficherEffetCase(caseActuelle.effet(pion, adversaire, plateau));
+        affichage.afficherImmunite(pion);
+
         affichage.afficherPosition(pion); 
         affichage.afficherPV(pion);
     }
 
     private void jouerTour() {
-        if (pionJack.getVie() <= 0 || pionBill.getVie() <= 0) {
-            return; 
-        }
-
         tourPion(pionJack, pionBill);
-        if (pionJack.getPosition() >= nbCases-1) {
+        if (estTermine(pionJack) || estMort(pionJack)) {
             return;
         }
         
         tourPion(pionBill, pionJack);
-        if (pionBill.getPosition() >= nbCases-1) {          
-            return;
-        }
-        
-        if (pionJack.getVie() <= 0) {
-            affichage.afficherMessage(pionJack.getNom() + " est mort !");
-        }
-        if (pionBill.getVie() <= 0) {
-            affichage.afficherMessage(pionBill.getNom() + " est mort !");
-        }
     }
 
-    
-    
+    private boolean estMort(Pions pion) {
+        if (pion.getVie() <= 0) {
+            affichage.afficherMessage(pion.getNom() + " est mort !");
+            return true;
+        }
+        return false;
+    }
+
+    private boolean estTermine(Pions pion) {
+        if (pion.getPosition() >= nbCases-1) {
+            return true;
+        }
+        return false;
+    }
+
     public void commencerJeu() {
-    	affichage.afficherPlateau(plateau.getCases());
-        while (pionJack.getPosition() < nbCases-1 && pionBill.getPosition() < nbCases-1 && pionJack.getVie() > 0 && pionBill.getVie() > 0) {
+        affichage.afficherPlateau(plateau.getCases());
+        while (!estTermine(pionJack) && !estTermine(pionBill) && pionJack.getVie() > 0 && pionBill.getVie() > 0) {
             jouerTour();
             affichage.afficherPlateauGraphique(plateau, pionJack, pionBill);
         }
         
-        if (pionJack.getPosition() >= nbCases-1 || pionBill.getVie() <= 0) {
-        	affichage.afficherFinDeJeu(pionJack);
-        } else if (pionBill.getPosition() >= nbCases-1 || pionJack.getVie() <= 0) {
+        if (estTermine(pionJack) || pionBill.getVie() <= 0) {
+            affichage.afficherFinDeJeu(pionJack);
+        } else if (estTermine(pionBill) || pionJack.getVie() <= 0) {
             affichage.afficherFinDeJeu(pionBill);
         }
     }
-    
 
     
 }

@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Plateau {
     private Case[] cases;
-    private int nbCases;
+    private int nbCases = Type.CASES.getQuantite();
 
     public Plateau(int nbCases) {
         cases = new Case[nbCases];

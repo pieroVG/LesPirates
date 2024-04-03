@@ -1,5 +1,6 @@
 package joueurs;
 
+import plateau.Type;
 
 public class Pions extends Pirates{
 	private Couleurs couleur;
@@ -20,12 +21,13 @@ public class Pions extends Pirates{
 		return position;
 	}
 	
-	public void deplacer(int pos) {
+	public String deplacer(int pos) {
+		int nbCases = Type.CASES.getQuantite()-1;
 	    int newPosition = position + pos + modifierDe;
-	    if (newPosition <= 29) {
+	    if (newPosition <= nbCases) {
 	        position = newPosition;
 	    } else {
-	        position = 29 - (newPosition - 29); // Reculer
+	        position = nbCases - (newPosition - nbCases); // Reculer
 	    }
 	    
 	    if (tempsModifier > 0) {
@@ -33,10 +35,10 @@ public class Pions extends Pirates{
 	    	
 	    	if (tempsModifier == 0) {
 		    	modifierDe = 0;
-		    	System.out.println(this.getNom() + " n'est plus bourré");
+		    	return this.getNom() + " n'est plus bourré ";
 		    }
 	    }
-	    
+		return null;  
 	}
 	
 	public int getModifierDe() {
